@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word">
+    <meta name="Originator" content="Microsoft Word">
+    <title>Отчёт данных продукции днища</title>
+    <!--[if gte mso 9]><xml>
+     <w:WordDocument>
+      <w:View>Print</w:View>
+      <w:Zoom>90</w:Zoom>
+      <w:DoNotOptimizeForBrowser/>
+     </w:WordDocument>
+    </xml><![endif]-->
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 20mm 15mm 20mm;
+        }
+        body {
+            font-family: 'Times New Roman', SimSun, serif;
+            font-size: 9pt;
+            margin: 0;
+            padding: 15px;
+            line-height: 1.4;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .doc-title {
+            font-size: 16pt;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .doc-number {
+            font-size: 10pt;
+            margin-bottom: 15px;
+        }
+        .section {
+            margin: 10px 0;
+            font-size: 9pt;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .section-content {
+            margin-left: 20px;
+        }
+        .checkbox-group {
+            display: inline-block;
+            margin-right: 15px;
+        }
+        .checkbox {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border: 1px solid #000;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+        .checkbox.checked {
+            background-color: #000;
+        }
+        .nd-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 8pt;
+            margin: 10px 0;
+        }
+        .nd-table th, .nd-table td {
+            border: 1px solid #000;
+            padding: 4px 6px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .nd-table th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+        .inspection-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 7pt;
+            margin: 10px 0;
+        }
+        .inspection-table th, .inspection-table td {
+            border: 1px solid #000;
+            padding: 3px 4px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .inspection-table th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+        .ferrite-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 7pt;
+            margin: 10px 0;
+        }
+        .ferrite-table th, .ferrite-table td {
+            border: 1px solid #000;
+            padding: 3px 4px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .ferrite-table th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 9pt;
+        }
+        .signatures {
+            display: table;
+            width: 100%;
+            margin-top: 15px;
+        }
+        .sig-block {
+            display: table-cell;
+            width: 33%;
+            padding: 5px;
+            vertical-align: top;
+        }
+        .sig-name {
+            font-weight: bold;
+            color: #c00;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="doc-title">ОТЧЁТ ДАННЫХ ПРОДУКЦИИ ДНИЩА</div>
+        <div class="doc-number">Номер документа: <strong>HD-Q-03-1</strong></div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">1. Номер заказа:</div>
+        <div class="section-content">/</div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">2. Заводской номер:</div>
+        <div class="section-content"><strong>LA250368-1~12</strong></div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">3. Метод формовки:</div>
+        <div class="section-content">
+            <span class="checkbox-group"><span class="checkbox"></span> Холодная штамповка</span>
+            <span class="checkbox-group"><span class="checkbox"></span> Горячая штамповка</span>
+            <span class="checkbox-group"><span class="checkbox checked"></span> Холодная ротационная вытяжка</span>
+            <span class="checkbox-group"><span class="checkbox"></span> Горячая ротационная вытяжка</span>
+            <span class="checkbox-group"><span class="checkbox"></span> Холодная вальцовка</span>
+            <span class="checkbox-group"><span class="checkbox"></span> Горячая вальцовка</span>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">4. Повторная проверка материалов:</div>
+        <div class="section-content">
+            <span class="checkbox-group"><span class="checkbox"></span> Да</span>
+            <span class="checkbox-group"><span class="checkbox checked"></span> Нет</span>
+            <span style="margin-left: 20px;">Номер отчёта: /</span>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">5. Термическая обработка:</div>
+        <div class="section-content">
+            <span class="checkbox-group"><span class="checkbox checked"></span> Да</span>
+            <span class="checkbox-group"><span class="checkbox"></span> Нет</span>
+            <span style="margin-left: 20px;">Номер отчёта: <strong>25LH021</strong></span><br>
+            <span style="margin-left: 20px; margin-top: 5px; display: inline-block;">Отчёт физико-химических испытаний образца основного металла после термической обработки:</span>
+            <span class="checkbox-group"><span class="checkbox"></span> Да</span>
+            <span class="checkbox-group"><span class="checkbox checked"></span> Нет</span><br>
+            <span style="margin-left: 20px; margin-top: 5px; display: inline-block;">Описание процесса термической обработки: <strong>620℃ Отжиг для снятия напряжений</strong></span>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">6. Сварочный образец:</div>
+        <div class="section-content">
+            <span class="checkbox-group"><span class="checkbox"></span> Да</span>
+            <span class="checkbox-group"><span class="checkbox checked"></span> Нет</span>
+            <span style="margin-left: 20px;">Отчёт физико-химических испытаний сварочного образца: /</span>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">7. Испытания на коррозионную стойкость:</div>
+        <div class="section-content">
+            <span class="checkbox-group"><span class="checkbox"></span> Да</span>
+            <span class="checkbox-group"><span class="checkbox checked"></span> Нет</span>
+            <span style="margin-left: 20px;">Номер отчёта: /</span>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">8. Неразрушающий контроль сварных соединений:</div>
+        <table class="nd-table">
+            <thead>
+                <tr>
+                    <th rowspan="2">Пункт неразрушающего контроля</th>
+                    <th colspan="6">Метод неразрушающего контроля</th>
+                </tr>
+                <tr>
+                    <th>Визуальный контроль (VT)</th>
+                    <th>Рентгенографический контроль (RT)</th>
+                    <th>Ультразвуковой контроль (UT)</th>
+                    <th>Магнитопорошковый контроль (MT)</th>
+                    <th>Капиллярный контроль (PT)</th>
+                    <th>Ультразвуковой контроль методом дифракции времени пролёта (TOFD)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Стандарт контроля</td>
+                    <td>/</td>
+                    <td>/</td>
+                    <td>/</td>
+                    <td>/</td>
+                    <td>/</td>
+                    <td>/</td>
+                </tr>
+                <tr>
+                    <td>Доля контроля</td>
+                    <td>/</td>
+                    <td>/</td>
+                    <td>/</td>
+                    <td>/</td>
+                    <td>/</td>
+                    <td>/</td>
+                </tr>
+                <tr>
+                    <td>Уровень приёмки</td>
+                    <td>/</td>
+                    <td>/</td>
+                    <td>/</td>
+                    <td>/</td>
+                    <td>/</td>
+                    <td>/</td>
+                </tr>
+                <tr>
+                    <td>Технический уровень</td>
+                    <td>/</td>
+                    <td>/</td>
+                    <td>/</td>
+                    <td>/</td>
+                    <td>/</td>
+                    <td>/</td>
+                </tr>
+                <tr>
+                    <td>Номер отчёта</td>
+                    <td>/</td>
+                    <td>/</td>
+                    <td>/</td>
+                    <td>/</td>
+                    <td>/</td>
+                    <td>/</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">9. Протокол контроля внешнего вида и геометрических размеров днища / мм:</div>
+        <table class="inspection-table">
+            <thead>
+                <tr>
+                    <th rowspan="2">№</th>
+                    <th rowspan="2">Пункт контроля</th>
+                    <th rowspan="2">Номер партии печи</th>
+                    <th rowspan="2">Наружный периметр</th>
+                    <th colspan="3">Внутренний диаметр / Наружный диаметр</th>
+                    <th rowspan="2">Овальность</th>
+                    <th rowspan="2">ri</th>
+                    <th rowspan="2">Минимальная толщина готового изделия</th>
+                    <th rowspan="2">Общая глубина (общая высота)</th>
+                    <th colspan="2">Допуск формы</th>
+                    <th rowspan="2">Высота прямого участка</th>
+                    <th rowspan="2">Наклон прямого участка</th>
+                    <th rowspan="2">Высота усиления шва</th>
+                </tr>
+                <tr>
+                    <th>Макс.</th>
+                    <th>Мин.</th>
+                    <th>Средн.</th>
+                    <th>Выпуклость наружу</th>
+                    <th>Вогнутость внутрь</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Нормативное значение</td>
+                    <td>/</td>
+                    <td>5718</td>
+                    <td>+4</td>
+                    <td>-3</td>
+                    <td>1800</td>
+                    <td>9</td>
+                    <td>/</td>
+                    <td>8.74</td>
+                    <td>475</td>
+                    <td>22.5</td>
+                    <td>11.25</td>
+                    <td>25</td>
+                    <td>1.5</td>
+                    <td>/</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>LA250368-1~12</td>
+                    <td>/</td>
+                    <td>См. приложение</td>
+                    <td>1801</td>
+                    <td>1798</td>
+                    <td>1799</td>
+                    <td>3</td>
+                    <td>/</td>
+                    <td>8.9</td>
+                    <td>475</td>
+                    <td>9~10</td>
+                    <td>0</td>
+                    <td>25</td>
+                    <td>0.5</td>
+                    <td>/</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">10. Измеренное значение содержания феррита в днище из нержавеющей стали / %:</div>
+        <table class="ferrite-table">
+            <thead>
+                <tr>
+                    <th rowspan="2">Форма днища</th>
+                    <th colspan="4">Прямой участок</th>
+                    <th colspan="4">Переходный участок</th>
+                    <th colspan="4">Верхняя часть</th>
+                    <th colspan="4">Большой конец</th>
+                    <th colspan="4">Средняя часть</th>
+                    <th colspan="4">Малый конец</th>
+                    <th colspan="4">Участок патрубка</th>
+                </tr>
+                <tr>
+                    <th>1</th><th>2</th><th>3</th><th>4</th>
+                    <th>1</th><th>2</th><th>3</th><th>4</th>
+                    <th>1</th><th>2</th><th>3</th><th>4</th>
+                    <th>1</th><th>2</th><th>3</th><th>4</th>
+                    <th>1</th><th>2</th><th>3</th><th>4</th>
+                    <th>1</th><th>2</th><th>3</th><th>4</th>
+                    <th>1</th><th>2</th><th>3</th><th>4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Эллиптическое, тарельчатое, плоское дно</td>
+                    <td>/</td><td>/</td><td>/</td><td>/</td>
+                    <td>/</td><td>/</td><td>/</td><td>/</td>
+                    <td>/</td><td>/</td><td>/</td><td>/</td>
+                    <td>/</td><td>/</td><td>/</td><td>/</td>
+                    <td>/</td><td>/</td><td>/</td><td>/</td>
+                    <td>/</td><td>/</td><td>/</td><td>/</td>
+                    <td>/</td><td>/</td><td>/</td><td>/</td>
+                </tr>
+                <tr>
+                    <td>Коническое</td>
+                    <td>/</td><td>/</td><td>/</td><td>/</td>
+                    <td>/</td><td>/</td><td>/</td><td>/</td>
+                    <td>/</td><td>/</td><td>/</td><td>/</td>
+                    <td>/</td><td>/</td><td>/</td><td>/</td>
+                    <td>/</td><td>/</td><td>/</td><td>/</td>
+                    <td>/</td><td>/</td><td>/</td><td>/</td>
+                    <td>/</td><td>/</td><td>/</td><td>/</td>
+                </tr>
+                <tr>
+                    <td>Полусферическое</td>
+                    <td>/</td><td>/</td><td>/</td><td>/</td>
+                    <td>/</td><td>/</td><td>/</td><td>/</td>
+                    <td>/</td><td>/</td><td>/</td><td>/</td>
+                    <td>/</td><td>/</td><td>/</td><td>/</td>
+                    <td>/</td><td>/</td><td>/</td><td>/</td>
+                    <td>/</td><td>/</td><td>/</td><td>/</td>
+                    <td>/</td><td>/</td><td>/</td><td>/</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">11. Схема расположения и маркировки стыковых швов днища:</div>
+        <div class="section-content">
+            <span class="checkbox-group"><span class="checkbox"></span> Да</span>
+            <span class="checkbox-group"><span class="checkbox checked"></span> Нет</span>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">12. Прочие вопросы, требующие пояснения:</div>
+        <div class="section-content"></div>
+    </div>
+    
+    <div class="footer">
+        <div class="signatures">
+            <div class="sig-block">
+                <strong>Контролёр:</strong><br>
+                <span class="sig-name">尤炯耀</span> (Ю Цзюнъяо)
+            </div>
+            <div class="sig-block">
+                <strong>Ответственный за качество:</strong><br>
+                <span class="sig-name"></span> (подпись и печать)
+            </div>
+            <div class="sig-block">
+                <strong>Дата:</strong><br>
+                <strong>2025.03.17</strong>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
