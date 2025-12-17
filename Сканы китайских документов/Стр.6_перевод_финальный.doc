@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word">
+    <meta name="Originator" content="Microsoft Word">
+    <title>Отчёт о визуальном осмотре и проверке геометрических размеров сосуда под давлением</title>
+    <!--[if gte mso 9]><xml>
+     <w:WordDocument>
+      <w:View>Print</w:View>
+      <w:Zoom>90</w:Zoom>
+      <w:DoNotOptimizeForBrowser/>
+     </w:WordDocument>
+    </xml><![endif]-->
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 12pt;
+            margin: 20mm;
+            line-height: 1.5;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 16pt;
+            font-weight: bold;
+            margin: 10px 0;
+            letter-spacing: 2px;
+        }
+        .header h2 {
+            font-size: 14pt;
+            font-weight: bold;
+            margin: 5px 0;
+            letter-spacing: 1px;
+        }
+        .company-info {
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 12pt;
+            font-weight: bold;
+        }
+        .product-info {
+            margin-bottom: 15px;
+            font-size: 11pt;
+        }
+        .product-info table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .product-info td {
+            padding: 3px 10px;
+        }
+        .product-info td:first-child {
+            font-weight: bold;
+            width: 150px;
+        }
+        .main-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 10pt;
+            margin-bottom: 20px;
+            table-layout: fixed;
+        }
+        .main-table th {
+            border: 1px solid #000;
+            padding: 6px 4px;
+            text-align: center;
+            background-color: #e0e0e0;
+            font-weight: bold;
+            vertical-align: middle;
+            font-size: 10pt;
+        }
+        .main-table td {
+            border: 1px solid #000;
+            padding: 4px;
+            text-align: left;
+            vertical-align: top;
+            font-size: 9.5pt;
+        }
+        .main-table td:first-child {
+            text-align: center;
+            width: 35px;
+            font-weight: bold;
+        }
+        .main-table td:nth-child(2) {
+            width: 220px;
+            padding: 4px 6px;
+        }
+        .main-table td:nth-child(3) {
+            text-align: center;
+            width: 50px;
+            font-size: 9pt;
+        }
+        .main-table td:nth-child(4) {
+            width: 130px;
+            padding: 4px 6px;
+        }
+        .main-table td:nth-child(5) {
+            width: 130px;
+            padding: 4px 6px;
+        }
+        .main-table td:nth-child(6) {
+            text-align: center;
+            width: 90px;
+            padding: 4px;
+        }
+        .conclusion {
+            margin-top: 20px;
+            font-size: 12pt;
+            font-weight: bold;
+        }
+        .signatures {
+            margin-top: 40px;
+            display: table;
+            width: 100%;
+        }
+        .signature-block {
+            display: table-cell;
+            width: 33%;
+            text-align: center;
+            padding: 0 10px;
+            vertical-align: top;
+        }
+        .signature-line {
+            border-top: 1px solid #000;
+            margin-top: 50px;
+            padding-top: 5px;
+            font-size: 10pt;
+        }
+        .date {
+            margin-top: 20px;
+            text-align: right;
+            font-size: 11pt;
+        }
+        .doc-number {
+            margin-top: 10px;
+            text-align: right;
+            font-size: 10pt;
+        }
+        .checkmark {
+            font-size: 12pt;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>ОТЧЁТ О ВИЗУАЛЬНОМ ОСМОТРЕ И ПРОВЕРКЕ ГЕОМЕТРИЧЕСКИХ РАЗМЕРОВ</h1>
+        <h2>СОСУДА ПОД ДАВЛЕНИЕМ</h2>
+    </div>
+    
+    <div class="company-info">
+        宇博科技 YUBO TECH
+    </div>
+    
+    <div class="product-info">
+        <table>
+            <tr>
+                <td>Наименование изделия:</td>
+                <td>Осушитель (Адсорбер)</td>
+            </tr>
+            <tr>
+                <td>Заводской номер:</td>
+                <td>V250353</td>
+            </tr>
+        </table>
+    </div>
+    
+    <table class="main-table">
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>Проверяемый параметр</th>
+                <th>Ед. изм.<br>(мм)</th>
+                <th>Требования стандарта</th>
+                <th>Фактический результат</th>
+                <th>Заключение</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Полная высота изделия</td>
+                <td>мм</td>
+                <td>3374</td>
+                <td>3376</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Внутренний диаметр</td>
+                <td>мм</td>
+                <td>1800</td>
+                <td>1800</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Полная длина изделия</td>
+                <td>мм</td>
+                <td>1800</td>
+                <td>1800</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Овальность корпуса по длине 3 м</td>
+                <td>мм</td>
+                <td>≤1.8</td>
+                <td>0.5</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Овальность корпуса</td>
+                <td>мм</td>
+                <td>≤18</td>
+                <td>4</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Толщина листа в холоднокатаном состоянии</td>
+                <td>мм</td>
+                <td>δ=10<sup>+0.3</sup><sub>−0.10</sub></td>
+                <td>10</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Толщина заднего фланца</td>
+                <td>мм</td>
+                <td>≥8.7</td>
+                <td>9.4</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Отклонение от круглости фланца</td>
+                <td>мм</td>
+                <td>≤22.5 / ≤11.25</td>
+                <td>9 / 0</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Глубина рисок и вмятин на фланце</td>
+                <td>мм</td>
+                <td>Без надрывов</td>
+                <td>Нет</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Радиус перехода сферической части и прямой части</td>
+                <td>мм</td>
+                <td>/</td>
+                <td>/</td>
+                <td>□ 合格</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Максимальная высота усиления шва (A-категория)</td>
+                <td>мм</td>
+                <td>≤3.0</td>
+                <td>2.5</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Максимальная высота усиления шва (B-категория)</td>
+                <td>мм</td>
+                <td>≤3.0</td>
+                <td>2.0</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Максимальная ширина усиления шва (A-категория)</td>
+                <td>мм</td>
+                <td>≤2.5</td>
+                <td>2.0</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Максимальная ширина усиления шва (B-категория)</td>
+                <td>мм</td>
+                <td>≤2.5</td>
+                <td>2.0</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Глубина и длина подрезов сварного шва</td>
+                <td>мм</td>
+                <td>≤0.5, L≤100, при L>100: ≤10%</td>
+                <td>0</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Высота шовного грата (односторонний)</td>
+                <td>мм</td>
+                <td>0 ~ ≤1.5</td>
+                <td>0.5 ~ ≤1.5</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>Качество внешнего вида сварного шва</td>
+                <td>—</td>
+                <td>Соответствует чертежам и стандартам</td>
+                <td>Соответствует</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Качество углового шва</td>
+                <td>—</td>
+                <td>Соответствует стандартам</td>
+                <td>Соответствует</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>Качество отверстия и кромки</td>
+                <td>—</td>
+                <td>Соответствует образцу</td>
+                <td>Соответствует</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Соосность фланцев и корпуса</td>
+                <td>—</td>
+                <td>Соответствует стандартам</td>
+                <td>Соответствует</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>Качество уплотнительной поверхности фланца</td>
+                <td>—</td>
+                <td>Без забоин и задиров</td>
+                <td>Соответствует</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>Соосность штуцеров относительно центральной оси</td>
+                <td>—</td>
+                <td>В пределах допуска</td>
+                <td>Соответствует</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>Расстояние между монтажными отверстиями опор</td>
+                <td>—</td>
+                <td>Соответствует чертежу</td>
+                <td>Соответствует</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>Размеры и расположение патрубков</td>
+                <td>—</td>
+                <td>Соответствуют чертежу</td>
+                <td>Соответствуют</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>Размеры усилительных накладок</td>
+                <td>—</td>
+                <td>Соответствуют чертежам</td>
+                <td>Соответствуют</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>Размеры основных комплектующих</td>
+                <td>—</td>
+                <td>Соответствуют чертежам</td>
+                <td>Соответствуют</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>Качество внешней поверхности сосуда</td>
+                <td>—</td>
+                <td>Соответствует требованиям</td>
+                <td>Соответствует</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>28</td>
+                <td>Наличие маркировки и схема расположения табличек</td>
+                <td>—</td>
+                <td>Соответствует чертежам</td>
+                <td>Соответствует</td>
+                <td>☑ 合格</td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td>Маркировка, окраска и упаковка</td>
+                <td>—</td>
+                <td>Соответствуют стандартам</td>
+                <td>Соответствуют</td>
+                <td>☑ 合格</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div class="conclusion">
+        <p>Заключение: 合格 (Соответствует требованиям)</p>
+    </div>
+    
+    <div class="signatures">
+        <div class="signature-block">
+            <div class="signature-line">
+                Ответственное лицо<br>
+                по контролю и испытаниям<br>
+                <br>
+                <br>
+                <strong>李华</strong> (Ли Хуа)
+            </div>
+        </div>
+        <div class="signature-block">
+            <div class="signature-line">
+                Контролёр<br>
+                <br>
+                <br>
+                <br>
+                <strong>金建云</strong> (Цзинь Цзяньюнь)
+            </div>
+        </div>
+        <div class="signature-block">
+            <div class="signature-line">
+                Дата<br>
+                <br>
+                <br>
+                <br>
+                <strong>2025年04月25日</strong><br>
+                (25 апреля 2025 г.)
+            </div>
+        </div>
+    </div>
+    
+    <div class="doc-number">
+        <p>Номер документа: <strong>F15-019-1</strong></p>
+    </div>
+</body>
+</html>
+
