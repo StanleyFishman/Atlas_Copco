@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word">
+    <meta name="Originator" content="Microsoft Word">
+    <title>Сертификат надзорной проверки изготовления специального оборудования</title>
+    <!--[if gte mso 9]><xml>
+     <w:WordDocument>
+      <w:View>Print</w:View>
+      <w:Zoom>90</w:Zoom>
+      <w:DoNotOptimizeForBrowser/>
+     </w:WordDocument>
+    </xml><![endif]-->
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 20mm 15mm 20mm;
+        }
+        body {
+            font-family: 'Times New Roman', SimSun, serif;
+            font-size: 10pt;
+            margin: 0;
+            padding: 15px;
+            line-height: 1.6;
+        }
+        .doc-id {
+            text-align: left;
+            font-size: 8pt;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .handwritten-note {
+            text-align: right;
+            font-size: 9pt;
+            color: #0066cc;
+            margin-bottom: 5px;
+            font-style: italic;
+        }
+        .certificate-number {
+            text-align: center;
+            font-size: 11pt;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .title {
+            text-align: center;
+            font-size: 20pt;
+            font-weight: bold;
+            margin: 20px 0 10px 0;
+        }
+        .subtitle {
+            text-align: center;
+            font-size: 14pt;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        .qr-section {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            text-align: center;
+            font-size: 8pt;
+        }
+        .qr-code {
+            width: 80px;
+            height: 80px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 10pt;
+        }
+        .info-table td {
+            border: 1px solid #000;
+            padding: 8px 10px;
+            vertical-align: middle;
+        }
+        .info-table .label {
+            background-color: #f0f0f0;
+            font-weight: bold;
+            width: 20%;
+        }
+        .info-table .value {
+            width: 30%;
+        }
+        .compliance-statement {
+            margin: 25px 0;
+            font-size: 10pt;
+            line-height: 1.8;
+            text-align: justify;
+        }
+        .ts-mark {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .ts-logo {
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            border: 3px solid #000;
+            border-radius: 50%;
+            line-height: 80px;
+            font-size: 36pt;
+            font-weight: bold;
+            color: #000;
+        }
+        .personnel-section {
+            margin: 30px 0;
+            font-size: 10pt;
+        }
+        .personnel-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        .personnel-table td {
+            padding: 8px 15px;
+            border: none;
+        }
+        .personnel-table .label {
+            font-weight: bold;
+            width: 25%;
+        }
+        .personnel-table .name {
+            width: 25%;
+            font-weight: bold;
+            color: #c00;
+        }
+        .personnel-table .date {
+            width: 25%;
+        }
+        .institution-info {
+            margin-top: 40px;
+            font-size: 10pt;
+        }
+        .institution-name {
+            font-weight: bold;
+            font-size: 12pt;
+            margin-bottom: 10px;
+        }
+        .stamp-area {
+            position: relative;
+            margin-top: 30px;
+            min-height: 100px;
+        }
+        .stamp-circular {
+            position: absolute;
+            right: 10%;
+            top: 0;
+            width: 120px;
+            height: 120px;
+            border: 3px solid #c00;
+            border-radius: 50%;
+            color: #c00;
+            font-weight: bold;
+            font-size: 9pt;
+            padding: 10px;
+            text-align: center;
+            line-height: 1.3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.95);
+        }
+        .note-section {
+            margin-top: 30px;
+            font-size: 9pt;
+            line-height: 1.6;
+        }
+        .contact-info {
+            margin-top: 20px;
+            font-size: 9pt;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="doc-id">JSTJ-BG-021-03-01-7.0</div>
+    <div class="handwritten-note">wps:1 V2X21-26</div>
+    
+    <div class="qr-section">
+        <div class="qr-code">QR</div>
+        <div>扫描查看报告信息<br>(Сканируйте для просмотра<br>информации отчёта)</div>
+    </div>
+    
+    <div class="certificate-number">
+        证书编号: <strong>JY-FC-2025-ZA-00076</strong>
+    </div>
+    
+    <div class="title">特种设备制造监督检验证书</div>
+    <div class="subtitle">(压力容器受压元件、受压部件)</div>
+    <div style="text-align: center; font-size: 12pt; margin-bottom: 30px;">
+        Special Equipment Manufacturing Supervision Inspection Certificate<br>
+        (Pressure Vessel Pressure-Bearing Components, Pressure-Bearing Parts)
+    </div>
+    
+    <table class="info-table">
+        <tr>
+            <td class="label">制造单位<br>(Manufacturing Unit)</td>
+            <td class="value">江阴市恒达金属压件有限公司<br>(Цзянъинь Хэнда Металл Прессинг Партс Ко., Лтд.)</td>
+            <td class="label">产品名称<br>(Product Name)</td>
+            <td class="value">椭圆形封头<br>(Эллиптическое днище)</td>
+        </tr>
+        <tr>
+            <td class="label">产品编(批)号<br>(Product Code/Batch No.)</td>
+            <td class="value"><strong>LA250368-1~12</strong></td>
+            <td class="label">型式规格<br>(Model/Specification)</td>
+            <td class="value">EHA1800×10</td>
+        </tr>
+        <tr>
+            <td class="label">材料<br>(Material)</td>
+            <td class="value">Q345R</td>
+            <td class="label">数量<br>(Quantity)</td>
+            <td class="value">12</td>
+        </tr>
+        <tr>
+            <td class="label">来料加工<br>(Processing Type)</td>
+            <td class="value">
+                <span style="margin-right: 20px;">☑ 是 (Да)</span>
+                <span>☐ 否 (Нет)</span>
+            </td>
+            <td class="label">制造日期<br>(Manufacturing Date)</td>
+            <td class="value"><strong>2025年03月17日</strong><br>(17 марта 2025 г.)</td>
+        </tr>
+    </table>
+    
+    <div class="compliance-statement">
+        <p>按照《中华人民共和国特种设备安全法》《特种设备安全监察条例》的规定,该(批)压力容器受压元件(部件)经我机构实施监督检验,安全性能符合《固定式压力容器安全技术监察规程》(TSG 21-2016)的要求,特发此证书,并且在该(批)压力容器受压元件(部件)产品合格证上盖注如下监督检验标志。</p>
+        <p style="margin-top: 10px;"><strong>В соответствии с положениями «Закона КНР о безопасности специального оборудования» и «Правил надзора за безопасностью специального оборудования», данный (данная партия) элемент (элементы), работающий (работающие) под давлением сосуда под давлением, прошёл (прошли) надзорную проверку нашей организацией, и его (их) характеристики безопасности соответствуют требованиям «Правил технического надзора за безопасностью стационарных сосудов под давлением» (TSG 21-2016). Настоящим выдаётся данный сертификат, и на сертификате соответствия продукции данного (данной партии) элемента (элементов), работающего (работающих) под давлением сосуда под давлением, проставляется следующий знак надзорной проверки.</strong></p>
+    </div>
+    
+    <div class="ts-mark">
+        <div class="ts-logo">TS</div>
+    </div>
+    
+    <div class="personnel-section">
+        <table class="personnel-table">
+            <tr>
+                <td class="label">监督检验人员<br>(Supervision Inspection Personnel)</td>
+                <td class="name">莫效益</td>
+                <td class="name" style="color: #333; font-weight: normal;">(Мо Сяои)</td>
+                <td class="date">日期 (Date): <strong>2025年03月19日</strong><br>(19 марта 2025 г.)</td>
+            </tr>
+            <tr>
+                <td class="label">审核<br>(Reviewer)</td>
+                <td class="name">张巍</td>
+                <td class="name" style="color: #333; font-weight: normal;">(Чжан Вэй)</td>
+                <td class="date">日期 (Date): <strong>2025年03月19日</strong><br>(19 марта 2025 г.)</td>
+            </tr>
+            <tr>
+                <td class="label">批准<br>(Approver)</td>
+                <td class="name">习老锋</td>
+                <td class="name" style="color: #333; font-weight: normal;">(Си Лаофэн)</td>
+                <td class="date">日期 (Date): <strong>2025年03月19日</strong><br>(19 марта 2025 г.)</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="institution-info">
+        <div class="institution-name">
+            监督检验机构 (Supervision Inspection Institution):<br>
+            江苏省特种设备安全监督检验研究院<br>
+            (Цзянсу Провиншиал Спешиал Экуипмент Сейфти Супервижн энд Инспекшн Рисерч Инститьют)
+        </div>
+        <div style="margin-top: 10px;">
+            <strong>监督检验机构核准证号 (Supervision Inspection Institution Approval Certificate No.):</strong><br>
+            TS7110002-2028
+        </div>
+    </div>
+    
+    <div class="stamp-area">
+        <div class="stamp-circular">
+            监督检验机构<br>
+            检验专用章<br>
+            <br>
+            2025年03月19日<br>
+            <br>
+            (Специальная печать<br>
+            надзорной проверки<br>
+            организации)
+        </div>
+    </div>
+    
+    <div class="note-section">
+        <p><strong>注 (Note):</strong> 本证书一式三份,一份监督检验机构存档,两份送制造单位,其中一份由制造单位随产品出厂资料交付。</p>
+        <p style="margin-top: 5px;">(Настоящий сертификат изготавливается в трёх экземплярах: один экземпляр хранится в архиве организации надзорной проверки, два экземпляра направляются на производственное предприятие, один из которых производственное предприятие передаёт вместе с заводской документацией на продукцию.)</p>
+    </div>
+    
+    <div class="contact-info">
+        <strong>地址 (Address):</strong> 江阴市东外环路188号2号楼<br>
+        (Здание 2, № 188, Дунвайхуань Лу, г. Цзянъинь)<br>
+        <strong>电话 (Phone):</strong> 0510-81660809<br>
+        <strong>邮编 (Postal Code):</strong> 214434
+    </div>
+</body>
+</html>
+

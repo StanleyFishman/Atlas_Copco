@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word">
+    <meta name="Originator" content="Microsoft Word">
+    <title>Лицензия на производство специального оборудования</title>
+    <!--[if gte mso 9]><xml>
+     <w:WordDocument>
+      <w:View>Print</w:View>
+      <w:Zoom>90</w:Zoom>
+      <w:DoNotOptimizeForBrowser/>
+     </w:WordDocument>
+    </xml><![endif]-->
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 20mm 15mm 20mm;
+        }
+        body {
+            font-family: 'Times New Roman', SimSun, serif;
+            font-size: 10pt;
+            margin: 0;
+            padding: 15px;
+            line-height: 1.6;
+        }
+        .title {
+            text-align: center;
+            font-size: 22pt;
+            font-weight: bold;
+            margin: 30px 0 40px 0;
+        }
+        .title-chinese {
+            margin-bottom: 10px;
+        }
+        .title-english {
+            font-size: 14pt;
+            color: #333;
+            margin-top: 10px;
+        }
+        .license-number {
+            text-align: right;
+            font-size: 11pt;
+            margin-bottom: 30px;
+        }
+        .info-section {
+            margin: 20px 0;
+            font-size: 10pt;
+        }
+        .info-row {
+            margin: 12px 0;
+            line-height: 1.8;
+        }
+        .info-label {
+            font-weight: bold;
+            display: inline-block;
+            width: 120px;
+            vertical-align: top;
+        }
+        .info-value {
+            display: inline-block;
+            width: calc(100% - 130px);
+        }
+        .table-heading {
+            font-weight: bold;
+            font-size: 11pt;
+            margin: 25px 0 15px 0;
+        }
+        .license-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 9pt;
+            margin: 15px 0;
+        }
+        .license-table th, .license-table td {
+            border: 1px solid #000;
+            padding: 8px 10px;
+            text-align: left;
+            vertical-align: middle;
+        }
+        .license-table th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+            text-align: center;
+        }
+        .license-table .col-item {
+            width: 25%;
+        }
+        .license-table .col-subitem {
+            width: 25%;
+        }
+        .license-table .col-params {
+            width: 20%;
+        }
+        .license-table .col-remarks {
+            width: 30%;
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 10pt;
+        }
+        .footer-left {
+            float: left;
+            width: 50%;
+        }
+        .footer-right {
+            float: right;
+            width: 50%;
+            text-align: right;
+        }
+        .stamp-area {
+            margin-top: 30px;
+            min-height: 80px;
+        }
+        .stamp-circular {
+            display: inline-block;
+            border: 2px solid #c00;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            color: #c00;
+            font-weight: bold;
+            font-size: 8pt;
+            padding: 5px;
+            line-height: 1.2;
+        }
+        .footer-bottom {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 9pt;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <div class="title-chinese">中华人民共和国</div>
+        <div class="title-chinese">特种设备生产许可证</div>
+        <div class="title-english">Production License of Special Equipment</div>
+        <div class="title-english">People's Republic of China</div>
+    </div>
+    
+    <div class="license-number">
+        <strong>编号 (License Number):</strong> TS2232F86-2027
+    </div>
+    
+    <div class="info-section">
+        <div class="info-row">
+            <span class="info-label">单位名称:</span>
+            <span class="info-value">江阴宇博科技有限公司<br>(Цзянъинь Юбо Технолоджи Ко., Лтд.)</span>
+        </div>
+        <div class="info-row">
+            <span class="info-label">住所:</span>
+            <span class="info-value">江阴市云亭街道工业集中区大园里路18号<br>(№ 18, Даюаньли Лу, Зона промышленной концентрации, ул. Юнтин, г. Цзянъинь)</span>
+        </div>
+        <div class="info-row">
+            <span class="info-label">制造地址:</span>
+            <span class="info-value">无锡市江阴市云亭街道工业集中区大园里路18号<br>(№ 18, Даюаньли Лу, Зона промышленной концентрации, ул. Юнтин, г. Цзянъинь, г. Уси)</span>
+        </div>
+    </div>
+    
+    <div class="table-heading">
+        经审查,获准从事以下特种设备生产活动<br>
+        (После проверки, разрешено заниматься следующими видами производства специального оборудования)
+    </div>
+    
+    <table class="license-table">
+        <thead>
+            <tr>
+                <th class="col-item">许可项目<br>(Лицензионный проект)</th>
+                <th class="col-subitem">许可子项目<br>(Лицензионный подпроект)</th>
+                <th class="col-params">许可参数<br>(Лицензионные параметры)</th>
+                <th class="col-remarks">备注<br>(Примечание)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>压力容器制造<br>(Производство сосудов под давлением)</td>
+                <td>固定式压力容器<br>(Стационарные сосуды под давлением)<br><br>其他高压容器(A2)<br>(Прочие сосуды высокого давления (A2))</td>
+                <td>-</td>
+                <td>具备所制造产品设计能力<br>(Обладает способностью к проектированию производимой продукции)</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div class="footer">
+        <div class="footer-left">
+            <div class="info-row">
+                <span class="info-label">发证机关:</span>
+                <span class="info-value">江苏省市场监督管理局<br>(Управление по надзору за рынком провинции Цзянсу)</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">有效期至:</span>
+                <span class="info-value"><strong>2027年04月12日</strong><br>(12 апреля 2027 г.)</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">发证日期:</span>
+                <span class="info-value"><strong>2023年03月30日</strong><br>(30 марта 2023 г.)</span>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="stamp-area">
+                <div class="stamp-circular">
+                    江苏省<br>
+                    市场监督管理局<br>
+                    <br>
+                    (发证机关公章)<br>
+                    <br>
+                    Официальная печать<br>
+                    органа выдачи
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        江苏省市场监督管理局制<br>
+        (Изготовлено Управлением по надзору за рынком провинции Цзянсу)
+    </div>
+</body>
+</html>
+

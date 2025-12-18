@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word">
+    <meta name="Originator" content="Microsoft Word">
+    <title>Титульная страница расчётной записки</title>
+    <!--[if gte mso 9]><xml>
+     <w:WordDocument>
+      <w:View>Print</w:View>
+      <w:Zoom>90</w:Zoom>
+      <w:DoNotOptimizeForBrowser/>
+     </w:WordDocument>
+    </xml><![endif]-->
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 20mm 15mm 20mm;
+        }
+        body {
+            font-family: 'Times New Roman', SimSun, serif;
+            font-size: 10pt;
+            margin: 0;
+            padding: 15px;
+            line-height: 1.6;
+        }
+        .header-right {
+            text-align: right;
+            font-size: 10pt;
+            margin-bottom: 30px;
+        }
+        .header-right .title {
+            font-size: 14pt;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .header-right .software-info {
+            font-size: 9pt;
+            color: #666;
+        }
+        .main-title {
+            text-align: center;
+            font-size: 36pt;
+            font-weight: bold;
+            margin: 40px 0 60px 0;
+            letter-spacing: 8px;
+            color: #000;
+        }
+        .left-sidebar {
+            position: absolute;
+            left: 0;
+            top: 200px;
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            font-size: 12pt;
+            font-weight: bold;
+            color: #333;
+        }
+        .content-section {
+            display: table;
+            width: 100%;
+            margin: 40px 0;
+        }
+        .content-left {
+            display: table-cell;
+            width: 50%;
+            vertical-align: top;
+            padding-right: 30px;
+        }
+        .content-right {
+            display: table-cell;
+            width: 50%;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .info-item {
+            margin-bottom: 15px;
+            font-size: 10pt;
+            line-height: 1.8;
+        }
+        .info-label {
+            font-weight: bold;
+            display: inline-block;
+            width: 100px;
+            vertical-align: top;
+        }
+        .info-value {
+            display: inline-block;
+            width: calc(100% - 110px);
+        }
+        .stamp-oval {
+            display: inline-block;
+            width: 280px;
+            height: 180px;
+            border: 3px solid #c00;
+            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            padding: 20px;
+            text-align: center;
+            color: #c00;
+            font-weight: bold;
+            font-size: 10pt;
+            line-height: 1.5;
+            background-color: rgba(255, 255, 255, 0.95);
+        }
+        .stamp-title {
+            font-size: 11pt;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #c00;
+            padding-bottom: 5px;
+        }
+        .stamp-content {
+            font-size: 9pt;
+            line-height: 1.6;
+        }
+        .approval-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 50px;
+            font-size: 10pt;
+        }
+        .approval-table th, .approval-table td {
+            border: 1px solid #000;
+            padding: 10px 15px;
+            text-align: left;
+            vertical-align: middle;
+        }
+        .approval-table th {
+            background-color: #f0f0f0;
+            font-weight: bold;
+            width: 20%;
+        }
+        .approval-table .name-cell {
+            width: 30%;
+            font-weight: bold;
+            color: #c00;
+        }
+        .approval-table .date-cell {
+            width: 25%;
+        }
+        .page-number {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            font-size: 9pt;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-right">
+        <div class="title">过程设备强度计算书</div>
+        <div class="title" style="font-size: 12pt;">Process Equipment Strength Calculation Book</div>
+        <div class="software-info">SW6-2024</div>
+        <div class="software-info">软件批准号: CSBTS/TC40/SC5-D01-1999<br>(Software Approval No: CSBTS/TC40/SC5-D01-1999)</div>
+    </div>
+    
+    <div class="main-title">过程设备设计计算</div>
+    <div style="text-align: center; font-size: 16pt; font-weight: bold; margin-bottom: 40px;">
+        Process Equipment Design Calculation
+    </div>
+    
+    <div class="left-sidebar">
+        全国化工设备设计技术中心站<br>
+        (National Chemical Equipment Design Technology Center Station)
+    </div>
+    
+    <div class="content-section">
+        <div class="content-left">
+            <div style="writing-mode: vertical-rl; text-orientation: upright; font-size: 14pt; font-weight: bold; margin-bottom: 30px; color: #333;">
+                DATA SHEET OF PROCESS EQUIPMENT DESIGN
+            </div>
+            
+            <div class="info-item">
+                <span class="info-label">工程名:</span>
+                <span class="info-value"><strong>PROJECT</strong></span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">设备位号:</span>
+                <span class="info-value"><strong>ITEM</strong></span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">设备名称:</span>
+                <span class="info-value"><strong>干燥塔</strong> (Башня сушки) / <strong>EQUIPMENT</strong></span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">图号:</span>
+                <span class="info-value"><strong>YB-23S1975-00</strong> / <strong>DWG NO.</strong></span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">设计单位:</span>
+                <span class="info-value"><strong>江阴宇博科技有限公司</strong><br>(Цзянъинь Юбо Технолоджи Ко., Лтд.) / <strong>DESIGNER</strong></span>
+            </div>
+        </div>
+        
+        <div class="content-right">
+            <div class="stamp-oval">
+                <div class="stamp-title">压力容器设计专用章</div>
+                <div class="stamp-content">
+                    (Специальная печать<br>
+                    проектирования сосудов<br>
+                    под давлением)<br>
+                    <br>
+                    主驱负责人: <strong>黑气爆</strong><br>
+                    (Ответственный руководитель:<br>
+                    Хэй Цибао)<br>
+                    <br>
+                    技术真实人: <strong>內通解</strong><br>
+                    (Технический проверяющий:<br>
+                    Нэй Тунцзе)<br>
+                    <br>
+                    <strong>TO2222180-2027</strong><br>
+                    <br>
+                    <strong>2023年03月30日</strong><br>
+                    (30 марта 2023 г.)<br>
+                    <br>
+                    <strong>江阴宇博科技有限公司</strong><br>
+                    (Цзянъинь Юбо Технолоджи<br>
+                    Ко., Лтд.)
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <table class="approval-table">
+        <thead>
+            <tr>
+                <th>项目<br>(Item)</th>
+                <th>日期<br>(Date)</th>
+                <th class="name-cell">签名<br>(Signature)</th>
+                <th class="date-cell">日期<br>(Date)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>设 计<br>(Design)<br>Designed by</td>
+                <td></td>
+                <td class="name-cell">金泽祥<br>(Цзинь Цзэсян)</td>
+                <td class="date-cell"><strong>2026.3.11</strong><br>(11 марта 2026 г.)</td>
+            </tr>
+            <tr>
+                <td>校 核<br>(Check)<br>Checked by</td>
+                <td></td>
+                <td class="name-cell">育達家<br>(Юй Дацзя)</td>
+                <td class="date-cell"><strong>2025.3.11</strong><br>(11 марта 2025 г.)</td>
+            </tr>
+            <tr>
+                <td>审 核<br>(Review)<br>Verified by</td>
+                <td></td>
+                <td class="name-cell">东佛刚<br>(Дун Фоган)</td>
+                <td class="date-cell"><strong>2025.3.11</strong><br>(11 марта 2025 г.)</td>
+            </tr>
+            <tr>
+                <td>批 准<br>(Approve)<br>Approved by</td>
+                <td></td>
+                <td class="name-cell"></td>
+                <td class="date-cell"></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div class="page-number">0</div>
+</body>
+</html>
+
