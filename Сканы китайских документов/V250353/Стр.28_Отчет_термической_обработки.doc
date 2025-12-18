@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word">
+    <meta name="Originator" content="Microsoft Word">
+    <title>Отчёт термической обработки</title>
+    <!--[if gte mso 9]><xml>
+     <w:WordDocument>
+      <w:View>Print</w:View>
+      <w:Zoom>90</w:Zoom>
+      <w:DoNotOptimizeForBrowser/>
+     </w:WordDocument>
+    </xml><![endif]-->
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 20mm 15mm 20mm;
+        }
+        body {
+            font-family: 'Times New Roman', SimSun, serif;
+            font-size: 9pt;
+            margin: 0;
+            padding: 15px;
+            line-height: 1.4;
+        }
+        .header {
+            display: table;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        .header-left {
+            display: table-cell;
+            width: 50%;
+            vertical-align: top;
+        }
+        .header-right {
+            display: table-cell;
+            width: 50%;
+            text-align: right;
+            vertical-align: top;
+        }
+        .doc-title {
+            font-size: 16pt;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .doc-number {
+            font-size: 10pt;
+        }
+        .section {
+            margin: 10px 0;
+            font-size: 9pt;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .section-content {
+            margin-left: 20px;
+        }
+        .checkbox-group {
+            display: inline-block;
+            margin-right: 15px;
+        }
+        .checkbox {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border: 1px solid #000;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+        .checkbox.checked {
+            background-color: #000;
+        }
+        .process-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 8pt;
+            margin: 10px 0;
+        }
+        .process-table th, .process-table td {
+            border: 1px solid #000;
+            padding: 4px 6px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .process-table th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+        .time-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 8pt;
+            margin: 10px 0;
+        }
+        .time-table th, .time-table td {
+            border: 1px solid #000;
+            padding: 4px 6px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .time-table th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+        .product-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 8pt;
+            margin: 10px 0;
+        }
+        .product-table th, .product-table td {
+            border: 1px solid #000;
+            padding: 4px 6px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .product-table th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+        .product-table .col-name {
+            text-align: left !important;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 9pt;
+        }
+        .signatures {
+            display: table;
+            width: 100%;
+            margin-top: 15px;
+        }
+        .sig-block {
+            display: table-cell;
+            width: 25%;
+            padding: 5px;
+            vertical-align: top;
+        }
+        .sig-name {
+            font-weight: bold;
+            color: #c00;
+            margin-top: 30px;
+        }
+        .company-name {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <div class="doc-title">ОТЧЁТ ТЕРМИЧЕСКОЙ ОБРАБОТКИ</div>
+        </div>
+        <div class="header-right">
+            <div class="doc-number"><strong>Номер отчёта:</strong> 25LH021</div>
+            <div class="doc-number"><strong>Всего страниц:</strong> 1</div>
+            <div class="doc-number"><strong>Дата:</strong> 2025.03.17</div>
+            <div class="doc-number"><strong>Стр.</strong> 1</div>
+            <div class="doc-number"><strong>Номер документа:</strong> HD-Y-02</div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">Категория термической обработки:</div>
+        <div class="section-content">
+            <span class="checkbox-group"><span class="checkbox"></span> Нормализация</span>
+            <span class="checkbox-group"><span class="checkbox"></span> Закалка на твёрдый раствор</span>
+            <span class="checkbox-group"><span class="checkbox"></span> Горячая штамповка</span>
+            <span class="checkbox-group"><span class="checkbox checked"></span> Отжиг для снятия напряжений</span>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">Таблица параметров процесса:</div>
+        <table class="process-table">
+            <thead>
+                <tr>
+                    <th rowspan="2">Пункт</th>
+                    <th>Температура загрузки в печь (°C)</th>
+                    <th>Скорость нагрева (°C/ч)</th>
+                    <th>Температура выдержки (°C)</th>
+                    <th>Время выдержки (мин)</th>
+                    <th>Скорость охлаждения (°C/ч)</th>
+                    <th>Способ охлаждения и время (ч)</th>
+                    <th>Температура выгрузки из печи (°C)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Технические требования</strong></td>
+                    <td>≤200</td>
+                    <td>≤200</td>
+                    <td>620±20</td>
+                    <td>60</td>
+                    <td>&lt;260</td>
+                    <td>Охлаждение в печи</td>
+                    <td>&lt;400</td>
+                </tr>
+                <tr>
+                    <td><strong>Фактическая операция</strong></td>
+                    <td>40</td>
+                    <td>180</td>
+                    <td>620</td>
+                    <td>60</td>
+                    <td>30~130</td>
+                    <td>Охлаждение в печи</td>
+                    <td>310</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">Запись операции:</div>
+        <div class="section-content">
+            <span class="checkbox-group"><span class="checkbox checked"></span> Кривая</span>
+            <span style="margin-left: 20px;"><strong>Номер термопары:</strong> TT02-04~TT02-09</span><br>
+            <span style="margin-left: 20px; margin-top: 5px; display: inline-block;"><strong>Срок действия:</strong> 2025.04</span>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">Таблица времени и метода:</div>
+        <table class="time-table">
+            <thead>
+                <tr>
+                    <th>Время начала нагрева</th>
+                    <th>Время начала выдержки</th>
+                    <th>Время начала охлаждения</th>
+                    <th>Время выгрузки из печи</th>
+                    <th>Способ измерения температуры</th>
+                    <th>Оборудование термической обработки</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>7:50</td>
+                    <td>10:46</td>
+                    <td>11:46</td>
+                    <td>16:10</td>
+                    <td>
+                        <span class="checkbox-group"><span class="checkbox checked"></span> Изделие</span><br>
+                        <span class="checkbox-group"><span class="checkbox"></span> Печь</span><br>
+                        <span class="checkbox-group"><span class="checkbox"></span> Другое</span>
+                    </td>
+                    <td>
+                        <span class="checkbox-group"><span class="checkbox checked"></span> Электрическая печь</span><br>
+                        <span class="checkbox-group"><span class="checkbox"></span> Масляная печь</span><br>
+                        <span class="checkbox-group"><span class="checkbox"></span> Газовая печь</span><br>
+                        <span class="checkbox-group"><span class="checkbox"></span> Другое</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">Продукция термической обработки:</div>
+        <div class="section-content">
+            <span class="checkbox-group"><span class="checkbox checked"></span> Без образца</span>
+            <span class="checkbox-group"><span class="checkbox"></span> Количество образцов в печи:</span>
+            <span style="margin-left: 5px;"></span><br>
+            <span style="margin-left: 20px; margin-top: 5px; display: inline-block;"><strong>Серийный номер:</strong></span>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">Таблица деталей продукции:</div>
+        <table class="product-table">
+            <thead>
+                <tr>
+                    <th>Наименование продукции</th>
+                    <th>Номер продукции</th>
+                    <th>Спецификация</th>
+                    <th>Количество</th>
+                    <th>Материал</th>
+                    <th>Форма изделия</th>
+                    <th>Схема расположения в печи (при необходимости)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="col-name">Эллиптическое днище</td>
+                    <td>LA250368-1~12</td>
+                    <td>Φ1800×10</td>
+                    <td>12</td>
+                    <td>Q345R</td>
+                    <td>EHA</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="col-name">Трубная доска</td>
+                    <td>LA250355-1~4</td>
+                    <td>Φ3200×20</td>
+                    <td>4</td>
+                    <td>Q245R</td>
+                    <td>/</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="col-name"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">Результаты термической обработки:</div>
+        <div class="section-content">
+            <span class="checkbox-group"><span class="checkbox checked"></span> Кривая T~t соответствует требованиям технологической карты</span><br>
+            <span class="checkbox-group"><span class="checkbox"></span> Кривая T~t не соответствует требованиям технологической карты</span><br>
+            <span class="checkbox-group" style="margin-top: 10px; display: inline-block;"><span class="checkbox checked"></span> Годно</span>
+            <span class="checkbox-group"><span class="checkbox"></span> Не годно</span>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">Примечание:</div>
+        <div class="section-content"></div>
+    </div>
+    
+    <div class="footer">
+        <div class="company-name">江阴市恒达金属压件有限公司<br>(Цзянъинь Хэнда Металл Прессинг Партс Ко., Лтд.)</div>
+        <div class="signatures">
+            <div class="sig-block">
+                <strong>Оператор:</strong><br>
+                <span class="sig-name">杨志军</span> (Ян Чжицзюнь)
+            </div>
+            <div class="sig-block">
+                <strong>Контролёр:</strong><br>
+                <span class="sig-name">尤炯耀</span> (Ю Цзюнъяо)
+            </div>
+            <div class="sig-block">
+                <strong>Проверено:</strong><br>
+                <span class="sig-name">陈军</span> (Чэнь Цзюнь)
+            </div>
+            <div class="sig-block">
+                <strong>Дата:</strong><br>
+                <strong>2025.03.17</strong>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+

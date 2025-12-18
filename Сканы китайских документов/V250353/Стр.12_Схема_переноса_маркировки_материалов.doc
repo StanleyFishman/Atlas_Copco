@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word">
+    <meta name="Originator" content="Microsoft Word">
+    <title>Схема переноса маркировки материалов</title>
+    <!--[if gte mso 9]><xml>
+     <w:WordDocument>
+      <w:View>Print</w:View>
+      <w:Zoom>90</w:Zoom>
+      <w:DoNotOptimizeForBrowser/>
+     </w:WordDocument>
+    </xml><![endif]-->
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 20mm 15mm 20mm;
+        }
+        body {
+            font-family: 'Times New Roman', SimSun, serif;
+            font-size: 10pt;
+            margin: 0;
+            padding: 15px;
+            line-height: 1.5;
+        }
+        .logo-header {
+            margin-bottom: 20px;
+        }
+        .logo {
+            font-size: 14pt;
+            font-weight: bold;
+            color: #003366;
+        }
+        .logo-sub {
+            font-size: 9pt;
+            color: #003366;
+        }
+        .title {
+            text-align: center;
+            font-size: 18pt;
+            font-weight: bold;
+            margin: 20px 0 30px 0;
+        }
+        .content-container {
+            display: table;
+            width: 100%;
+            margin: 20px 0;
+        }
+        .diagram-section {
+            display: table-cell;
+            width: 60%;
+            vertical-align: top;
+            padding-right: 15px;
+        }
+        .table-section {
+            display: table-cell;
+            width: 40%;
+            vertical-align: top;
+            padding-left: 15px;
+        }
+        .product-info {
+            font-size: 10pt;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .materials-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 8pt;
+            margin-top: 10px;
+        }
+        .materials-table th, .materials-table td {
+            border: 1px solid #000;
+            padding: 4px 6px;
+            text-align: left;
+            vertical-align: middle;
+        }
+        .materials-table th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+            text-align: center;
+        }
+        .materials-table .col-part {
+            width: 25%;
+        }
+        .materials-table .col-storage {
+            width: 30%;
+        }
+        .materials-table .col-spec {
+            width: 45%;
+        }
+        .diagram-container {
+            margin: 20px 0;
+            min-height: 400px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+        .diagram-description {
+            font-size: 9pt;
+            color: #666;
+            margin-top: 15px;
+            line-height: 1.8;
+            text-align: left;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 9pt;
+        }
+        .signatures {
+            display: table;
+            width: 100%;
+            margin-top: 30px;
+        }
+        .sig-block {
+            display: table-cell;
+            width: 50%;
+            vertical-align: top;
+            padding: 10px;
+        }
+        .sig-label {
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+        .sig-name {
+            font-weight: bold;
+            color: #c00;
+            margin-top: 10px;
+        }
+        .sig-date {
+            margin-top: 10px;
+            font-size: 9pt;
+        }
+        .doc-number {
+            text-align: right;
+            font-size: 9pt;
+            margin-top: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-header">
+        <span class="logo">宇博科技</span>
+        <span class="logo-sub">YUBO TECH</span>
+    </div>
+    
+    <div class="title">СХЕМА ПЕРЕНОСА МАРКИРОВКИ МАТЕРИАЛОВ</div>
+    
+    <div class="content-container">
+        <div class="diagram-section">
+            <div class="diagram-container">
+                <div style="font-size: 11pt; color: #333; margin-bottom: 15px;"><strong>Схема сосуда с маркировкой деталей</strong></div>
+                <div class="diagram-description">
+                    <strong>Описание схемы:</strong><br>
+                    Горизонтальный цилиндрический сосуд с полусферическими днищами (Сушильная башня).<br><br>
+                    <strong>Правое полусферическое днище (правая сторона сосуда):</strong><br>
+                    • Деталь 1 - патрубок/присоединение на верхней части<br>
+                    • Деталь 3 - присоединение ниже детали 1<br>
+                    • Деталь 2 - патрубок большего диаметра на боковой стороне<br>
+                    • Деталь 8 - само полусферическое днище<br>
+                    • Деталь 27 - небольшая прямоугольная пластина на верхней поверхности цилиндрического корпуса<br><br>
+                    <strong>Левое полусферическое днище (левая сторона сосуда):</strong><br>
+                    • Детали 23-7, 23-4, 23-1 - прямоугольное отверстие (возможно, люк или смотровое отверстие)<br>
+                    • Детали 13, 15, 14 - три небольших присоединения в нижней части днища<br><br>
+                    <strong>Цилиндрический корпус:</strong><br>
+                    • Деталь 11-1 - опора или точка крепления в правой нижней части<br>
+                    • Деталь 10 - линия, указывающая на нижнюю поверхность цилиндрического корпуса
+                </div>
+            </div>
+        </div>
+        <div class="table-section">
+            <div class="product-info">Номер продукции: <strong>V250353</strong></div>
+            <table class="materials-table">
+                <thead>
+                    <tr>
+                        <th class="col-part">Деталь</th>
+                        <th class="col-storage">Номер поступления на склад</th>
+                        <th class="col-spec">Спецификация материала</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>B24-188</td>
+                        <td>Q345R, 824</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>G25-22</td>
+                        <td>20#, φ108×6</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>F24-114</td>
+                        <td>Q345R</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>B25-60</td>
+                        <td>Q345R, 810</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>B25-74</td>
+                        <td>Q345R, 810</td>
+                    </tr>
+                    <tr>
+                        <td>11-1</td>
+                        <td>D25-25-6</td>
+                        <td>20 II</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>B24-181</td>
+                        <td>Q345R, 822</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>G25-14</td>
+                        <td>20#, φ89×6</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>F24-113</td>
+                        <td>Q345R</td>
+                    </tr>
+                    <tr>
+                        <td>23-1</td>
+                        <td>B24-124</td>
+                        <td>Q345R, 814</td>
+                    </tr>
+                    <tr>
+                        <td>23-4</td>
+                        <td>B25-68</td>
+                        <td>Q345R, 840</td>
+                    </tr>
+                    <tr>
+                        <td>23-7</td>
+                        <td>B25-10</td>
+                        <td>Q345R, 834</td>
+                    </tr>
+                    <tr>
+                        <td>27</td>
+                        <td>D25-25-7</td>
+                        <td>20 II</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="signatures">
+            <div class="sig-block">
+                <div class="sig-label">Контролёр:</div>
+                <div class="sig-name">任玉锋</div>
+                <div class="sig-name" style="color: #333; font-size: 9pt;">(Жэнь Юйфэн)</div>
+                <div class="sig-date">Дата: 2025.04.22</div>
+            </div>
+            <div class="sig-block">
+                <div class="sig-label">Проверено:</div>
+                <div class="sig-name">周庆</div>
+                <div class="sig-name" style="color: #333; font-size: 9pt;">(Чжоу Цин)</div>
+                <div class="sig-date">Дата: 2025.04.22</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="doc-number">
+        Номер документа: <strong>F15-024-0</strong>
+    </div>
+</body>
+</html>
+

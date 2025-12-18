@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word">
+    <meta name="Originator" content="Microsoft Word">
+    <title>Схема дефектоскопии</title>
+    <!--[if gte mso 9]><xml>
+     <w:WordDocument>
+      <w:View>Print</w:View>
+      <w:Zoom>90</w:Zoom>
+      <w:DoNotOptimizeForBrowser/>
+     </w:WordDocument>
+    </xml><![endif]-->
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 20mm 15mm 20mm;
+        }
+        body {
+            font-family: 'Times New Roman', SimSun, serif;
+            font-size: 10pt;
+            margin: 0;
+            padding: 15px;
+            line-height: 1.5;
+        }
+        .logo-header {
+            margin-bottom: 20px;
+        }
+        .logo {
+            font-size: 14pt;
+            font-weight: bold;
+            color: #003366;
+        }
+        .logo-sub {
+            font-size: 9pt;
+            color: #003366;
+        }
+        .title {
+            text-align: center;
+            font-size: 18pt;
+            font-weight: bold;
+            margin: 20px 0 30px 0;
+        }
+        .product-info {
+            margin: 20px 0;
+            font-size: 10pt;
+        }
+        .product-info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .product-info-table td {
+            padding: 5px 10px;
+            border: none;
+        }
+        .product-info-table .label {
+            font-weight: bold;
+            width: 120px;
+        }
+        .diagram-container {
+            margin: 30px 0;
+            min-height: 300px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+        .diagram-description {
+            font-size: 9pt;
+            color: #666;
+            margin-top: 15px;
+            line-height: 1.8;
+        }
+        .marking-list {
+            margin: 20px 0;
+            font-size: 9pt;
+        }
+        .marking-item {
+            margin: 5px 0;
+            padding-left: 20px;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 9pt;
+        }
+        .signatures {
+            display: table;
+            width: 100%;
+            margin-top: 30px;
+        }
+        .sig-block {
+            display: table-cell;
+            width: 33.33%;
+            vertical-align: top;
+            padding: 10px;
+        }
+        .sig-label {
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+        .sig-qualification {
+            font-size: 9pt;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .sig-name {
+            font-weight: bold;
+            color: #c00;
+            margin-top: 10px;
+        }
+        .sig-date {
+            margin-top: 10px;
+            font-size: 9pt;
+        }
+        .stamp-circular {
+            display: inline-block;
+            border: 2px solid #c00;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            color: #c00;
+            font-weight: bold;
+            font-size: 7pt;
+            margin-top: 10px;
+            padding: 5px;
+            line-height: 1.2;
+        }
+        .doc-number {
+            text-align: right;
+            font-size: 9pt;
+            margin-top: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-header">
+        <span class="logo">宇博科技</span>
+        <span class="logo-sub">YUBO TECH</span>
+    </div>
+    
+    <div class="title">СХЕМА ДЕФЕКТОСКОПИИ</div>
+    
+    <table class="product-info-table">
+        <tr>
+            <td class="label">Наименование продукции:</td>
+            <td>干燥塔 (Сушильная башня)</td>
+        </tr>
+        <tr>
+            <td class="label">Номер продукции:</td>
+            <td><strong>V250353</strong></td>
+        </tr>
+        <tr>
+            <td class="label">Схема:</td>
+            <td></td>
+        </tr>
+    </table>
+    
+    <div class="diagram-container">
+        <div style="font-size: 11pt; color: #333; margin-bottom: 15px;"><strong>Схема сосуда для дефектоскопии</strong></div>
+        <div class="diagram-description">
+            <strong>Описание схемы:</strong><br>
+            Горизонтальный цилиндрический сосуд с полусферическими днищами (Сушильная башня).<br>
+            На схеме указаны точки контроля дефектоскопии:<br>
+            • A2-1 - патрубок/отверстие на верхней части сосуда<br>
+            • B1-1 - участок на верхней левой стороне сосуда<br>
+            • A1-1 - горизонтальный участок на левой стороне, ниже B1-1<br>
+            • B2-1 - участок на верхней правой стороне сосуда<br>
+            • Внутренние компоненты в правой нижней части сосуда (выделены облаком)<br>
+            • Опорная конструкция или соединение в нижней центральной части<br>
+            • Несколько прямоугольных фланцев и присоединений вдоль криволинейных концов и сторон сосуда
+        </div>
+    </div>
+    
+    <div class="marking-list">
+        <strong>Маркировка точек контроля:</strong>
+        <div class="marking-item">A2-1 - Контрольная точка на верхнем патрубке</div>
+        <div class="marking-item">B1-1 - Контрольная точка на верхней левой стороне</div>
+        <div class="marking-item">A1-1 - Контрольная точка на левой стороне</div>
+        <div class="marking-item">B2-1 - Контрольная точка на верхней правой стороне</div>
+    </div>
+    
+    <div class="footer">
+        <div class="signatures">
+            <div class="sig-block">
+                <div class="sig-label">Отчётчик (квалификация):</div>
+                <div class="sig-qualification">RT-II</div>
+                <div class="sig-name">陶国红</div>
+                <div class="sig-name" style="color: #333; font-size: 9pt;">(Тао Гохуан)</div>
+                <div class="sig-date">25年04月16日 (16 апреля 2025 г.)</div>
+            </div>
+            <div class="sig-block">
+                <div class="sig-label">Рецензент (квалификация):</div>
+                <div class="sig-qualification">RT-II</div>
+                <div class="sig-name">周肄彬</div>
+                <div class="sig-name" style="color: #333; font-size: 9pt;">(Чжоу Ибинь)</div>
+                <div class="sig-date">25年04月16日 (16 апреля 2025 г.)</div>
+            </div>
+            <div class="sig-block">
+                <div class="sig-label">Специальная печать неразрушающего контроля:</div>
+                <div class="stamp-circular">
+                    JIANGYIN<br>
+                    YUBO TECH<br>
+                    CO.,LTD<br>
+                    <br>
+                    江阴宇博科技有限公司<br>
+                    <br>
+                    NDE SPECIAL SEAL<br>
+                    <br>
+                    无损检测专用章<br>
+                    <br>
+                    25年04月16日
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="doc-number">
+        Номер документа: <strong>F16-008-0</strong>
+    </div>
+</body>
+</html>
+

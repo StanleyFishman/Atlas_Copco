@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word">
+    <meta name="Originator" content="Microsoft Word">
+    <title>Схема маркировки сварщиков</title>
+    <!--[if gte mso 9]><xml>
+     <w:WordDocument>
+      <w:View>Print</w:View>
+      <w:Zoom>90</w:Zoom>
+      <w:DoNotOptimizeForBrowser/>
+     </w:WordDocument>
+    </xml><![endif]-->
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 20mm 15mm 20mm;
+        }
+        body {
+            font-family: 'Times New Roman', SimSun, serif;
+            font-size: 10pt;
+            margin: 0;
+            padding: 15px;
+            line-height: 1.5;
+        }
+        .logo-header {
+            margin-bottom: 20px;
+        }
+        .logo {
+            font-size: 14pt;
+            font-weight: bold;
+            color: #003366;
+        }
+        .logo-sub {
+            font-size: 9pt;
+            color: #003366;
+        }
+        .title {
+            text-align: center;
+            font-size: 18pt;
+            font-weight: bold;
+            margin: 20px 0 30px 0;
+        }
+        .product-info {
+            text-align: right;
+            font-size: 10pt;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .content-container {
+            display: table;
+            width: 100%;
+            margin: 20px 0;
+        }
+        .diagram-section {
+            display: table-cell;
+            width: 65%;
+            vertical-align: top;
+            padding-right: 15px;
+        }
+        .table-section {
+            display: table-cell;
+            width: 35%;
+            vertical-align: top;
+            padding-left: 15px;
+        }
+        .welds-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 8pt;
+            margin-top: 10px;
+        }
+        .welds-table th, .welds-table td {
+            border: 1px solid #000;
+            padding: 4px 6px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .welds-table th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+        .welds-table .col-part {
+            width: 60%;
+        }
+        .welds-table .col-welder {
+            width: 40%;
+        }
+        .diagram-container {
+            margin: 20px 0;
+            min-height: 450px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+        .diagram-description {
+            font-size: 9pt;
+            color: #666;
+            margin-top: 15px;
+            line-height: 1.8;
+            text-align: left;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 9pt;
+        }
+        .signatures {
+            display: table;
+            width: 100%;
+            margin-top: 30px;
+        }
+        .sig-block {
+            display: table-cell;
+            width: 50%;
+            vertical-align: top;
+            padding: 10px;
+        }
+        .sig-label {
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+        .sig-name {
+            font-weight: bold;
+            color: #c00;
+            margin-top: 10px;
+        }
+        .sig-date {
+            margin-top: 10px;
+            font-size: 9pt;
+        }
+        .doc-number {
+            text-align: right;
+            font-size: 9pt;
+            margin-top: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-header">
+        <span class="logo">宇博科技</span>
+        <span class="logo-sub">YUBO TECH</span>
+    </div>
+    
+    <div class="title">СХЕМА МАРКИРОВКИ СВАРЩИКОВ</div>
+    
+    <div class="product-info">Номер продукции: <strong>V250353</strong></div>
+    
+    <div class="content-container">
+        <div class="diagram-section">
+            <div class="diagram-container">
+                <div style="font-size: 11pt; color: #333; margin-bottom: 15px;"><strong>Схема сосуда с маркировкой сварных швов</strong></div>
+                <div class="diagram-description">
+                    <strong>Описание схемы:</strong><br>
+                    Горизонтальный цилиндрический сосуд с полусферическими днищами (Сушильная башня).<br><br>
+                    <strong>Левое полусферическое днище и прилегающий цилиндрический участок:</strong><br>
+                    • E3 - верхняя левая часть полусферического днища<br>
+                    • B1 - левый участок цилиндрической обечайки<br>
+                    • D3 - патрубок/присоединение на верхней левой стороне цилиндрической обечайки<br>
+                    • D2 - патрубок/присоединение ниже D3 на левой стороне<br>
+                    • C1 - небольшое присоединение в нижней левой части полусферического днища<br>
+                    • D1 - патрубок/присоединение в самой нижней части левого полусферического днища<br>
+                    • E1-E2 - участок в нижней части левого полусферического днища<br><br>
+                    <strong>Верхняя часть сосуда (цилиндрический участок):</strong><br>
+                    • D4 - патрубок/присоединение на верхней левой части цилиндрической обечайки<br>
+                    • A2 - патрубок/присоединение на верхней центральной части цилиндрической обечайки<br>
+                    • C2 - небольшое присоединение рядом с A2<br>
+                    • E7-E9 - серия патрубков/присоединений на верхней правой части цилиндрической обечайки<br>
+                    • E10 - патрубок/присоединение справа от E7-E9<br>
+                    • E4-E6 - участок на верхней правой части цилиндрической обечайки, простирающийся к правому полусферическому днищу<br><br>
+                    <strong>Основной цилиндрический корпус:</strong><br>
+                    • A1 - центральный основной участок цилиндрической обечайки<br><br>
+                    <strong>Правое полусферическое днище и прилегающий цилиндрический участок:</strong><br>
+                    • B2 - правый участок цилиндрической обечайки<br>
+                    • D5 - патрубок/присоединение на верхней правой стороне цилиндрической обечайки<br>
+                    • D6 - патрубок/присоединение ниже D5 на правой стороне<br>
+                    • C3 - небольшое присоединение в нижней правой части полусферического днища<br>
+                    • D7 - патрубок/присоединение в самой нижней части правого полусферического днища<br><br>
+                    <strong>Нижняя часть сосуда:</strong><br>
+                    • D8 - патрубок/присоединение в нижней центральной части цилиндрической обечайки
+                </div>
+            </div>
+        </div>
+        <div class="table-section">
+            <div style="font-weight: bold; margin-bottom: 10px; font-size: 10pt;">Сварные швы</div>
+            <table class="welds-table">
+                <thead>
+                    <tr>
+                        <th class="col-part">Деталь</th>
+                        <th class="col-welder">Номер сварщика</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>A2</td>
+                        <td>H07</td>
+                    </tr>
+                    <tr>
+                        <td>C1-C3</td>
+                        <td>H09</td>
+                    </tr>
+                    <tr>
+                        <td>D1, D2</td>
+                        <td>H17, H09</td>
+                    </tr>
+                    <tr>
+                        <td>D3</td>
+                        <td>H17</td>
+                    </tr>
+                    <tr>
+                        <td>A1</td>
+                        <td>H09</td>
+                    </tr>
+                    <tr>
+                        <td>D6, D7</td>
+                        <td>H17, H09</td>
+                    </tr>
+                    <tr>
+                        <td>E3-E6</td>
+                        <td>H09</td>
+                    </tr>
+                    <tr>
+                        <td>B2</td>
+                        <td>H09</td>
+                    </tr>
+                    <tr>
+                        <td>B1</td>
+                        <td>H09</td>
+                    </tr>
+                    <tr>
+                        <td>D4, D8</td>
+                        <td>H17</td>
+                    </tr>
+                    <tr>
+                        <td>D5</td>
+                        <td>H17</td>
+                    </tr>
+                    <tr>
+                        <td>E1-E2, E7-E9</td>
+                        <td>H09</td>
+                    </tr>
+                    <tr>
+                        <td>E10</td>
+                        <td>H17</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="signatures">
+            <div class="sig-block">
+                <div class="sig-label">Контролёр:</div>
+                <div class="sig-name">顾卫刷</div>
+                <div class="sig-name" style="color: #333; font-size: 9pt;">(Гу Вэйшуа)</div>
+                <div class="sig-date">Дата: 2025.04.22</div>
+            </div>
+            <div class="sig-block">
+                <div class="sig-label">Проверено:</div>
+                <div class="sig-name">金龙华</div>
+                <div class="sig-name" style="color: #333; font-size: 9pt;">(Цзинь Лунхуа)</div>
+                <div class="sig-date">Дата: 2025.04.22</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="doc-number">
+        Номер документа: <strong>F15-026-0</strong>
+    </div>
+</body>
+</html>
+
