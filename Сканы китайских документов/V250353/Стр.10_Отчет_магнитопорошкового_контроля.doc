@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word">
+    <meta name="Originator" content="Microsoft Word">
+    <title>Отчёт магнитопорошкового контроля</title>
+    <!--[if gte mso 9]><xml>
+     <w:WordDocument>
+      <w:View>Print</w:View>
+      <w:Zoom>90</w:Zoom>
+      <w:DoNotOptimizeForBrowser/>
+     </w:WordDocument>
+    </xml><![endif]-->
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 20mm 15mm 20mm;
+        }
+        body {
+            font-family: 'Times New Roman', SimSun, serif;
+            font-size: 10pt;
+            margin: 0;
+            padding: 15px;
+            line-height: 1.3;
+        }
+        .logo-header {
+            margin-bottom: 10px;
+        }
+        .logo {
+            font-size: 14pt;
+            font-weight: bold;
+            color: #003366;
+        }
+        .logo-sub {
+            font-size: 9pt;
+            color: #003366;
+        }
+        .title {
+            text-align: center;
+            font-size: 16pt;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        .report-number {
+            text-align: right;
+            margin-bottom: 10px;
+            font-size: 10pt;
+        }
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 9pt;
+            margin-bottom: 15px;
+        }
+        .info-table td {
+            border: 1px solid #000;
+            padding: 4px 6px;
+            vertical-align: top;
+        }
+        .info-table td:first-child {
+            font-weight: bold;
+            width: 150px;
+            background-color: #f5f5f5;
+        }
+        .details-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 9pt;
+            margin-bottom: 15px;
+        }
+        .details-table td {
+            border: 1px solid #000;
+            padding: 4px 6px;
+            vertical-align: top;
+        }
+        .details-table td:first-child {
+            font-weight: bold;
+            width: 150px;
+            background-color: #f5f5f5;
+        }
+        .details-table td:nth-child(2) {
+            width: 50%;
+        }
+        .details-table td:nth-child(3) {
+            font-weight: bold;
+            width: 150px;
+            background-color: #f5f5f5;
+        }
+        .details-table td:nth-child(4) {
+            width: 50%;
+        }
+        .defects-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 8pt;
+            margin-bottom: 15px;
+        }
+        .defects-table th, .defects-table td {
+            border: 1px solid #000;
+            padding: 3px 4px;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .defects-table th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+        .defects-table td {
+            text-align: center;
+        }
+        .col-num {
+            width: 30px;
+        }
+        .col-part {
+            width: 80px;
+        }
+        .col-defect-num {
+            width: 60px;
+        }
+        .col-type {
+            width: 80px;
+        }
+        .col-size {
+            width: 100px;
+        }
+        .col-grind {
+            width: 120px;
+        }
+        .col-weld {
+            width: 120px;
+        }
+        .col-final {
+            width: 60px;
+        }
+        .text-section {
+            margin: 15px 0;
+            font-size: 9pt;
+            line-height: 1.6;
+        }
+        .text-section p {
+            margin: 5px 0;
+        }
+        .signatures {
+            display: table;
+            width: 100%;
+            margin-top: 20px;
+            font-size: 10pt;
+        }
+        .sig-block {
+            display: table-cell;
+            width: 33%;
+            padding: 0 10px;
+        }
+        .sig-name {
+            font-weight: bold;
+            color: #c00;
+        }
+        .date-block {
+            text-align: right;
+        }
+        .doc-number {
+            text-align: right;
+            font-size: 9pt;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-header">
+        <span class="logo">宇博科技</span><br>
+        <span class="logo-sub">YUBO TECH</span>
+    </div>
+    
+    <div class="report-number">
+        <strong>Номер отчёта:</strong> V250353MT
+    </div>
+    
+    <div class="title">ОТЧЁТ МАГНИТОПОРОШКОВОГО КОНТРОЛЯ</div>
+    
+    <table class="info-table">
+        <tr>
+            <td>Наименование изделия</td>
+            <td>Осушитель</td>
+        </tr>
+        <tr>
+            <td>Заводской номер</td>
+            <td>V250353</td>
+        </tr>
+        <tr>
+            <td>Номер инструкции по эксплуатации</td>
+            <td>YB-23S1975-00</td>
+        </tr>
+    </table>
+    
+    <table class="details-table">
+        <tr>
+            <td rowspan="6">Деталь</td>
+            <td><strong>Наименование детали:</strong> Проушины и днища, обечайка</td>
+            <td rowspan="6">Детектор и параметры</td>
+            <td><strong>Марка материала:</strong> Q345R</td>
+        </tr>
+        <tr>
+            <td><strong>Номер детали:</strong> E1-E2</td>
+            <td><strong>Состояние поверхности:</strong> Сварное соединение отшлифовано</td>
+        </tr>
+        <tr>
+            <td><strong>Модель прибора:</strong> CYE-3A</td>
+            <td><strong>Метод намагничивания:</strong> Метод магнитного ярма</td>
+        </tr>
+        <tr>
+            <td><strong>Стандартный тестовый образец:</strong> A1-30/100</td>
+            <td><strong>Освещённость видимым светом детали:</strong> 1220Lx/1230Lx</td>
+        </tr>
+        <tr>
+            <td><strong>Способ нанесения магнитной суспензии:</strong> Распыление</td>
+            <td><strong>Расстояние между полюсами магнитного ярма:</strong> 100 мм</td>
+        </tr>
+        <tr>
+            <td><strong>Время намагничивания:</strong> 1с-3с</td>
+            <td><strong>Подъёмная сила:</strong> ≥45 Н</td>
+        </tr>
+        <tr>
+            <td><strong>Номер технологической инструкции:</strong> YB/SOP-001</td>
+            <td></td>
+            <td><strong>Стандарт контроля:</strong> NB/T47013.4-2015</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><strong>Уровень приемки:</strong> I уровень</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><strong>Место контроля:</strong> Угловой сварной шов</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><strong>Момент контроля:</strong> После сварки</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><strong>Метод контроля:</strong> Непрерывный метод</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><strong>Магнитная суспензия, магнитный порошок:</strong> JYBL-BW чёрная магнитная суспензия 2.1мл/100 мл</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><strong>Процент контроля:</strong> 100</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><strong>Категория сосуда:</strong> I категория</td>
+            <td></td>
+        </tr>
+    </table>
+    
+    <div style="margin-bottom: 10px; font-weight: bold; font-size: 10pt;">
+        Состояние дефектов в местах контроля
+    </div>
+    
+    <table class="defects-table">
+        <thead>
+            <tr>
+                <th class="col-num">№ п/п</th>
+                <th class="col-part">Номер места сварного шва (детали)</th>
+                <th class="col-defect-num">Номер дефекта</th>
+                <th class="col-type">Тип дефекта</th>
+                <th class="col-size">Размер магнитного следа дефекта (мм)</th>
+                <th colspan="2" class="col-grind">Дефект после шлифовки и повторной проверки</th>
+                <th colspan="2" class="col-weld">Дефект после ремонта и повторной проверки</th>
+                <th class="col-final">Окончательная оценка (уровень)</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th>Характер</th>
+                <th>Размер магнитного следа (мм)</th>
+                <th>Характер</th>
+                <th>Размер магнитного следа (мм)</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>E1-E2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Не обнаружено дефектов, превышающих норму</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div class="text-section">
+        <p><strong>Заключение по результатам контроля:</strong></p>
+        <p>1. Данное изделие соответствует требованиям стандарта NB/T47013.4-2015, оценено как годное.</p>
+        <p>2. Места контроля и расположение дефектов подробно описаны на схеме дефектоскопии (прилагается отдельно).</p>
+    </div>
+    
+    <div class="signatures">
+        <div class="sig-block">
+            <strong>Составитель (квалификация) MT-II:</strong><br>
+            <span class="sig-name">陶国红</span> (Тао Гохунун)
+        </div>
+        <div class="sig-block">
+            <strong>Проверяющий (квалификация) MT-II:</strong><br>
+            <span class="sig-name">周肄彬</span> (Чжоу Ибинь)
+        </div>
+        <div class="sig-block date-block">
+            <strong>Дата:</strong><br>
+            <strong>25年04月22日</strong><br>
+            (22 апреля 2025 г.)
+        </div>
+    </div>
+    
+    <div class="doc-number">
+        Номер документа: <strong>F16-017-1</strong>
+    </div>
+</body>
+</html>
+

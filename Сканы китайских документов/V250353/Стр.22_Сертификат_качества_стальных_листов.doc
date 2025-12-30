@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word">
+    <meta name="Originator" content="Microsoft Word">
+    <title>Сертификат качества стальных листов</title>
+    <!--[if gte mso 9]><xml>
+     <w:WordDocument>
+      <w:View>Print</w:View>
+      <w:Zoom>90</w:Zoom>
+      <w:DoNotOptimizeForBrowser/>
+     </w:WordDocument>
+    </xml><![endif]-->
+    <style>
+        @page {
+            size: A4 landscape;
+            margin: 10mm 15mm 10mm 15mm;
+        }
+        body {
+            font-family: 'Times New Roman', SimSun, serif;
+            font-size: 7pt;
+            margin: 0;
+            padding: 10px;
+            line-height: 1.2;
+        }
+        .header {
+            display: table;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .header-left, .header-center, .header-right {
+            display: table-cell;
+            vertical-align: top;
+        }
+        .header-left {
+            width: 30%;
+            text-align: left;
+        }
+        .header-center {
+            width: 40%;
+            text-align: center;
+        }
+        .header-right {
+            width: 30%;
+            text-align: right;
+            font-size: 7pt;
+        }
+        .company-name {
+            font-size: 11pt;
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+        .certificate-title {
+            font-size: 14pt;
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+        .certificate-subtitle {
+            font-size: 10pt;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .order-number {
+            font-size: 9pt;
+            margin-top: 5px;
+        }
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 8px;
+            font-size: 7pt;
+        }
+        .info-table td {
+            border: 1px solid #000;
+            padding: 2px 4px;
+            vertical-align: middle;
+        }
+        .info-table .label {
+            background-color: #f0f0f0;
+            font-weight: bold;
+            width: 12%;
+        }
+        .info-table .value {
+            width: 13%;
+        }
+        .main-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 8px;
+            font-size: 6pt;
+            table-layout: fixed;
+        }
+        .main-table th, .main-table td {
+            border: 1px solid #000;
+            padding: 1px 2px;
+            text-align: center;
+            vertical-align: middle;
+            word-wrap: break-word;
+        }
+        .main-table th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+        .main-table .col-no {
+            width: 2%;
+        }
+        .main-table .col-plate {
+            width: 5%;
+        }
+        .main-table .col-heat {
+            width: 4%;
+        }
+        .main-table .col-dims {
+            width: 8%;
+        }
+        .main-table .col-chem {
+            width: 20%;
+        }
+        .main-table .col-tensile {
+            width: 6%;
+        }
+        .main-table .col-impact {
+            width: 5%;
+        }
+        .main-table .col-z {
+            width: 3%;
+        }
+        .main-table .col-hardness {
+            width: 3%;
+        }
+        .main-table .col-test-lot {
+            width: 6%;
+        }
+        .remarks-section {
+            margin-top: 8px;
+            font-size: 7pt;
+        }
+        .remarks-section p {
+            margin: 2px 0;
+        }
+        .remarks-section ul {
+            margin: 2px 0;
+            padding-left: 20px;
+        }
+        .remarks-section li {
+            margin: 1px 0;
+        }
+        .certification-statement {
+            margin-top: 10px;
+            font-size: 7pt;
+            line-height: 1.4;
+        }
+        .signatures {
+            display: table;
+            width: 100%;
+            margin-top: 15px;
+            font-size: 7pt;
+        }
+        .signature-item {
+            display: table-cell;
+            width: 25%;
+            text-align: center;
+            vertical-align: bottom;
+            padding: 5px;
+        }
+        .signature-item .label {
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+        .signature-item .name {
+            margin-top: 5px;
+            font-weight: bold;
+            color: #c00;
+        }
+        .stamp-area {
+            position: relative;
+            height: 60px;
+            margin-top: 10px;
+        }
+        .blue-stamp {
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 80px;
+            border: 2px solid #0066cc;
+            border-radius: 50%;
+            color: #0066cc;
+            font-size: 8pt;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            line-height: 1.2;
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+        .red-stamp {
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            border: 2px solid #c00;
+            border-radius: 50%;
+            color: #c00;
+            font-size: 7pt;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            line-height: 1.2;
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+        .stamp-right {
+            right: 5%;
+        }
+        .stamp-right2 {
+            right: 20%;
+        }
+        .page-number {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 8pt;
+        }
+        .summary-row {
+            text-align: left;
+            padding-left: 5px !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <div class="company-name">安阳钢铁股份有限公司</div>
+            <div class="company-name">安钢集团 ANYANG IRON & STEEL CO., LTD.</div>
+        </div>
+        <div class="header-center">
+            <div class="certificate-title">产品质量证明书</div>
+            <div class="certificate-subtitle">INSPECTION CERTIFICATE</div>
+            <div class="order-number">√250353</div>
+        </div>
+        <div class="header-right">
+            <div>河南省安阳市殷都区 邮编: 455004</div>
+            <div>ANYANG CITY, HENAN PROVINCE, CHINA</div>
+            <div>客服:0372-3124322 0372-3122485</div>
+        </div>
+    </div>
+
+    <table class="info-table">
+        <tr>
+            <td class="label">订货单位 CUSTOMER</td>
+            <td class="value">无锡华晖供应链管理有限公司<br>(Уси Хуахуэй Саплай Чейн Менеджмент Ко., Лтд.)</td>
+            <td class="label">到站 DESTINATION</td>
+            <td class="value">汽运代运<br>(Автомобильная перевозка)</td>
+        </tr>
+        <tr>
+            <td class="label">收货单位 PURCHASER</td>
+            <td class="value">无锡华晖供应链管理有限公司<br>(Уси Хуахуэй Саплай Чейн Менеджмент Ко., Лтд.)</td>
+            <td class="label">客户订单编号 CUSTOMER ORDER</td>
+            <td class="value">J240046</td>
+        </tr>
+        <tr>
+            <td class="label">产品名称 PRODUCT</td>
+            <td class="value">承压设备用钢板<br>(Стальной лист для оборудования, работающего под давлением)</td>
+            <td class="label">码单号 (Bill of Lading No.)</td>
+            <td class="value">N4124183074</td>
+        </tr>
+        <tr>
+            <td class="label">标准 SPECIFICATION</td>
+            <td class="value">GB/T 713.2-2023</td>
+            <td class="label">车号 WAGON NO.</td>
+            <td class="value">豫E06117D</td>
+        </tr>
+        <tr>
+            <td class="label">钢种 STEEL GRADE</td>
+            <td class="value">Q345R</td>
+            <td class="label">证书号 CERTIFICATE NO</td>
+            <td class="value">202411130000264</td>
+        </tr>
+        <tr>
+            <td class="label">交货状态 (Delivery Condition)</td>
+            <td class="value">热轧<br>(Горячекатаный)</td>
+            <td class="label">签发日期 DATE OF ISSUE</td>
+            <td class="value">20241113<br>(13 ноября 2024 г.)</td>
+        </tr>
+        <tr>
+            <td class="label">许可证号 LICENSE NO</td>
+            <td class="value"></td>
+            <td class="label">合同交货日期 DATE OF DELIVERY</td>
+            <td class="value">20241210<br>(10 декабря 2024 г.)</td>
+        </tr>
+        <tr>
+            <td class="label">合同号 CONTRACT NO</td>
+            <td class="value">J240046362</td>
+            <td class="label"></td>
+            <td class="value"></td>
+        </tr>
+    </table>
+
+    <table class="main-table">
+        <thead>
+            <tr>
+                <th rowspan="3" class="col-no">序<br>NO</th>
+                <th rowspan="3" class="col-plate">钢板<br>PLATE NO.</th>
+                <th rowspan="3" class="col-heat">炉<br>HEAT NO.</th>
+                <th colspan="5" class="col-dims">尺寸及重量 MATERIAL DESCRIPTION</th>
+                <th colspan="16" class="col-chem">化学成分 CHEMICAL COMPOSITION (%)</th>
+                <th colspan="5" class="col-tensile">拉伸试验 TENSILE TEST</th>
+                <th colspan="5" class="col-impact">常规冲击 IMPACT TEST</th>
+                <th colspan="4" class="col-z">z向面缩率z-<br>PERCENTAGE</th>
+                <th colspan="4" class="col-hardness">硬度<br>HARDNESS</th>
+                <th rowspan="3" class="col-test-lot">检验批号<br>TEST LOT NO.</th>
+            </tr>
+            <tr>
+                <th rowspan="2">厚度<br>THICK<br>(mm)</th>
+                <th rowspan="2">宽度<br>WIDTH<br>(mm)</th>
+                <th rowspan="2">长度<br>LENGTH<br>(mm)</th>
+                <th rowspan="2">数量<br>Q</th>
+                <th rowspan="2">重量<br>MASS<br>(t)</th>
+                <th rowspan="2">分析区<br>ANALYSIS<br>*1</th>
+                <th colspan="15">元素 (Elements)</th>
+                <th rowspan="2">位置方向<br>*2</th>
+                <th rowspan="2">屈服<br>Y.S. ReL<br>(MPa)</th>
+                <th rowspan="2">抗拉<br>T.S. Rm<br>(MPa)</th>
+                <th rowspan="2">伸长<br>EL *3<br>(%)</th>
+                <th rowspan="2">YR RA<br>*4<br>(%)</th>
+                <th rowspan="2">位置方向<br>*2</th>
+                <th colspan="3">温度=0.0℃ 厚度=7.5mm<br>IMPACT (V2型)</th>
+                <th rowspan="2">ΔJ</th>
+                <th rowspan="2">Z1</th>
+                <th rowspan="2">Z2</th>
+                <th rowspan="2">Z3</th>
+                <th rowspan="2">ΔZ</th>
+                <th colspan="3">测量位置<br>POSITION *6</th>
+                <th rowspan="2">AVG</th>
+            </tr>
+            <tr>
+                <th>C</th><th>Si</th><th>Mn</th><th>P</th><th>S</th><th>Alt</th><th>Cr</th><th>Ni</th><th>Cu</th><th>V</th><th>Nb</th><th>Ti</th><th>B</th><th>Mo</th><th>N</th><th>CEV</th>
+                <th>J1</th><th>J2</th><th>J3</th>
+                <th>1</th><th>2</th><th>3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td rowspan="2">Z4BC309100</td>
+                <td rowspan="2">4209870</td>
+                <td rowspan="2">10.00</td>
+                <td rowspan="2">2,200</td>
+                <td rowspan="2">10,150</td>
+                <td rowspan="2">1</td>
+                <td rowspan="2">1.814</td>
+                <td>L</td>
+                <td>0.17</td><td>0.26</td><td>1.42</td><td>0.011</td><td>0.005</td><td>0.022</td><td>0.02</td><td>0.00</td><td>0.01</td><td>0.02</td><td></td><td></td><td></td><td></td><td></td><td>0.41</td>
+                <td rowspan="2">TC</td><td rowspan="2">385</td><td rowspan="2">530</td><td rowspan="2">29.5</td><td rowspan="2"></td>
+                <td rowspan="2">TC</td><td rowspan="2">87</td><td rowspan="2">86</td><td rowspan="2">91</td><td rowspan="2">88</td>
+                <td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td>
+                <td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td>
+                <td rowspan="2">Z4114777PLL0100</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.001</td><td>0.003</td><td>0.008</td><td>0.004</td><td>0.005</td><td></td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">Z4BC309200</td>
+                <td rowspan="2">4209870</td>
+                <td rowspan="2">10.00</td>
+                <td rowspan="2">2,200</td>
+                <td rowspan="2">10,100</td>
+                <td rowspan="2">1</td>
+                <td rowspan="2">1.805</td>
+                <td>L</td>
+                <td>0.17</td><td>0.26</td><td>1.42</td><td>0.011</td><td>0.005</td><td>0.022</td><td>0.02</td><td>0.00</td><td>0.01</td><td>0.02</td><td></td><td></td><td></td><td></td><td></td><td>0.41</td>
+                <td rowspan="2">TC</td><td rowspan="2">385</td><td rowspan="2">530</td><td rowspan="2">29.5</td><td rowspan="2"></td>
+                <td rowspan="2">TC</td><td rowspan="2">87</td><td rowspan="2">86</td><td rowspan="2">91</td><td rowspan="2">88</td>
+                <td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td>
+                <td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td>
+                <td rowspan="2">Z4114777PLL0100</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.001</td><td>0.003</td><td>0.008</td><td>0.004</td><td>0.005</td><td></td>
+            </tr>
+            <tr>
+                <td rowspan="2">3</td>
+                <td rowspan="2">Z4BC310100</td>
+                <td rowspan="2">4209870</td>
+                <td rowspan="2">10.00</td>
+                <td rowspan="2">2,200</td>
+                <td rowspan="2">10,000</td>
+                <td rowspan="2">1</td>
+                <td rowspan="2">1.787</td>
+                <td>L</td>
+                <td>0.17</td><td>0.26</td><td>1.42</td><td>0.011</td><td>0.005</td><td>0.022</td><td>0.02</td><td>0.00</td><td>0.01</td><td>0.02</td><td></td><td></td><td></td><td></td><td></td><td>0.41</td>
+                <td rowspan="2">TC</td><td rowspan="2">397</td><td rowspan="2">550</td><td rowspan="2">35.0</td><td rowspan="2"></td>
+                <td rowspan="2">TC</td><td rowspan="2">86</td><td rowspan="2">94</td><td rowspan="2">101</td><td rowspan="2">94</td>
+                <td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td>
+                <td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td>
+                <td rowspan="2">Z4114774PLL0100</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.001</td><td>0.003</td><td>0.008</td><td>0.004</td><td>0.005</td><td></td>
+            </tr>
+            <tr>
+                <td rowspan="2">4</td>
+                <td rowspan="2">Z4BC310200</td>
+                <td rowspan="2">4209870</td>
+                <td rowspan="2">10.00</td>
+                <td rowspan="2">2,200</td>
+                <td rowspan="2">10,800</td>
+                <td rowspan="2">1</td>
+                <td rowspan="2">1.93</td>
+                <td>L</td>
+                <td>0.17</td><td>0.26</td><td>1.42</td><td>0.011</td><td>0.005</td><td>0.022</td><td>0.02</td><td>0.00</td><td>0.01</td><td>0.02</td><td></td><td></td><td></td><td></td><td></td><td>0.41</td>
+                <td rowspan="2">TC</td><td rowspan="2">397</td><td rowspan="2">550</td><td rowspan="2">35.0</td><td rowspan="2"></td>
+                <td rowspan="2">TC</td><td rowspan="2">86</td><td rowspan="2">94</td><td rowspan="2">101</td><td rowspan="2">94</td>
+                <td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td>
+                <td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td>
+                <td rowspan="2">Z4114774PLL0100</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.001</td><td>0.003</td><td>0.008</td><td>0.004</td><td>0.005</td><td></td>
+            </tr>
+            <tr>
+                <td rowspan="2">5</td>
+                <td rowspan="2">Z4BC311100</td>
+                <td rowspan="2">4209870</td>
+                <td rowspan="2">10.00</td>
+                <td rowspan="2">2,200</td>
+                <td rowspan="2">10,000</td>
+                <td rowspan="2">1</td>
+                <td rowspan="2">1.787</td>
+                <td>L</td>
+                <td>0.17</td><td>0.26</td><td>1.42</td><td>0.011</td><td>0.005</td><td>0.022</td><td>0.02</td><td>0.00</td><td>0.01</td><td>0.02</td><td></td><td></td><td></td><td></td><td></td><td>0.41</td>
+                <td rowspan="2">TC</td><td rowspan="2">397</td><td rowspan="2">550</td><td rowspan="2">35.0</td><td rowspan="2"></td>
+                <td rowspan="2">TC</td><td rowspan="2">86</td><td rowspan="2">94</td><td rowspan="2">101</td><td rowspan="2">94</td>
+                <td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td>
+                <td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td>
+                <td rowspan="2">Z4114774PLL0100</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.001</td><td>0.003</td><td>0.008</td><td>0.004</td><td>0.005</td><td></td>
+            </tr>
+            <tr>
+                <td colspan="29" class="summary-row">弯曲 d=2a 180 BEND TEST GOOD (Испытание на изгиб d=2a 180° - Годно)</td>
+                <td colspan="10" class="summary-row">外观及尺寸 ACCEPTABLE VISUAL AND DIMENSIONS (Внешний вид и размеры - Приемлемо)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="remarks-section">
+        <table style="width: 100%; border-collapse: collapse; font-size: 7pt;">
+            <tr>
+                <td style="width: 8%; font-weight: bold; vertical-align: top;">合计 Total:</td>
+                <td style="width: 8%; vertical-align: top;"><strong>5 PIECES</strong></td>
+                <td style="width: 8%; vertical-align: top;"><strong>9.123 t</strong></td>
+                <td style="width: 40%; vertical-align: top;"></td>
+                <td style="width: 12%; font-weight: bold; vertical-align: top;">验船师 SURVEYOR:</td>
+                <td style="width: 24%; vertical-align: top; position: relative;">
+                    <div style="font-weight: bold; color: #c00;">人辉 B25-60</div>
+                    <div>2025.03/11</div>
+                </td>
+            </tr>
+        </table>
+        <p><strong>备注 REMARKS:</strong> 钢板牌号以质量证明书为准 (Марка стали соответствует сертификату качества) / The trademark of the steel is subject to the certificate</p>
+        <p><strong>注释 NOTES:</strong></p>
+        <ul>
+            <li>*1 分析区分 ANALYSIS: L=熔炼分析 LADLE ANALYSIS (Анализ плавки). P=成品分析 PRODUCT ANALYSIS (Анализ готовой продукции)</li>
+            <li>*2 位置方向 LOCATION AND ORIENTATION: B=尾部 BOTTOM (Нижняя часть). T=头部 TOP (Верхняя часть). C=横向 TRANS (Поперечное направление). L=纵向 LONGI (Продольное направление). Y=45°</li>
+            <li>*3 屈强比 YIELD RATIO (Отношение предела текучести к пределу прочности)</li>
+            <li>*4 断面收缩率 REDUCTION OF AREA (Относительное сужение поперечного сечения)</li>
+            <li>*5 化学成分铝(AL)指全铝(ALT) (Химический состав алюминия (AL) означает общий алюминий (ALT))</li>
+            <li>*6 测量位置 POSITION: 1=SURFACE (Поверхность), 2=SUB-SURFACE (Подповерхностный слой), 3=1/4THICK (1/4 толщины), 4=1/2THICK (1/2 толщины)</li>
+            <li>厚度公差执行 THICKNESS TOLERANCE: CLASS B类 (Класс B)</li>
+        </ul>
+    </div>
+
+    <div class="certification-statement">
+        <p><strong>本产品已按上述要求进行制造和检验,其结果符合要求,特此证明。</strong></p>
+        <p><strong>WE HEREBY CERTIFY THAT MATERIAL DESCRIBED HEREIN HAS MANUFACTURED AND TESTED WITH SATISFACTORY RESULTS IN ACCORDANCE WITH THE REQUIREMENTS OF THE ABOVE MATERIAL SPECIFICATION.</strong></p>
+        <p>(Настоящим подтверждаем, что описанный материал был изготовлен и испытан с удовлетворительными результатами в соответствии с требованиями вышеуказанной спецификации материала.)</p>
+    </div>
+
+    <div class="signatures">
+        <div class="signature-item">
+            <div class="label">签发 ISSUED</div>
+            <div class="name"></div>
+        </div>
+        <div class="signature-item">
+            <div class="label">负责人 (Person in Charge):</div>
+            <div class="name">于志华</div>
+            <div style="font-size: 6pt; color: #333;">(Юй Чжихуа)</div>
+        </div>
+        <div class="signature-item">
+            <div class="label">质量证明书专用章<br>CERTIFICATE SEAL</div>
+            <div class="name"></div>
+        </div>
+        <div class="signature-item">
+            <div class="name">张玉南</div>
+            <div style="font-size: 6pt; color: #333;">(Чжан Юйнань)</div>
+            <div class="label">职务 (Position): 副经理 (Заместитель директора)</div>
+        </div>
+    </div>
+
+    <div class="stamp-area">
+        <div class="blue-stamp" style="left: 50%; top: -30px;">
+            监检确认<br>者澄花<br>2025.03.11<br>(Надзорная проверка<br>подтверждена)
+        </div>
+        <div class="red-stamp stamp-right">
+            钢材质量证明<br>专用章
+        </div>
+        <div class="red-stamp stamp-right2">
+            安阳钢铁股份<br>有限公司
+        </div>
+    </div>
+
+    <div class="page-number">1/2</div>
+</body>
+</html>
+

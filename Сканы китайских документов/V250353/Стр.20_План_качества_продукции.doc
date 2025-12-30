@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word">
+    <meta name="Originator" content="Microsoft Word">
+    <title>План качества продукции сосудов давления</title>
+    <!--[if gte mso 9]><xml>
+     <w:WordDocument>
+      <w:View>Print</w:View>
+      <w:Zoom>90</w:Zoom>
+      <w:DoNotOptimizeForBrowser/>
+     </w:WordDocument>
+    </xml><![endif]-->
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 20mm 15mm 20mm;
+        }
+        body {
+            font-family: 'Times New Roman', SimSun, serif;
+            font-size: 9pt;
+            margin: 0;
+            padding: 15px;
+            line-height: 1.3;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .company-name {
+            font-size: 14pt;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .doc-title {
+            font-size: 16pt;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .doc-info {
+            font-size: 9pt;
+            margin-bottom: 15px;
+        }
+        .top-tables {
+            display: table;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        .top-table-left, .top-table-right {
+            display: table-cell;
+            width: 50%;
+            padding: 0 5px;
+            vertical-align: top;
+        }
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 9pt;
+            margin-bottom: 10px;
+        }
+        .info-table td {
+            border: 1px solid #000;
+            padding: 4px 6px;
+            vertical-align: top;
+        }
+        .info-table td:first-child {
+            font-weight: bold;
+            width: 35%;
+            background-color: #f5f5f5;
+        }
+        .key-codes {
+            margin: 15px 0;
+            padding: 10px;
+            border: 1px solid #000;
+            background-color: #f9f9f9;
+            font-size: 9pt;
+        }
+        .key-codes-title {
+            font-weight: bold;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+        .key-codes-list {
+            display: table;
+            width: 100%;
+        }
+        .key-codes-row {
+            display: table-row;
+        }
+        .key-code-item {
+            display: table-cell;
+            padding: 2px 8px;
+            width: 33%;
+        }
+        .main-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 8pt;
+            margin-top: 10px;
+        }
+        .main-table th, .main-table td {
+            border: 1px solid #000;
+            padding: 3px 4px;
+            vertical-align: top;
+            text-align: left;
+        }
+        .main-table th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+            text-align: center;
+        }
+        .col-serial {
+            width: 3%;
+        }
+        .col-process {
+            width: 15%;
+        }
+        .col-requirements {
+            width: 30%;
+        }
+        .col-inspection {
+            width: 52%;
+        }
+        .col-control-point {
+            width: 8%;
+        }
+        .col-supervision {
+            width: 8%;
+        }
+        .col-inspector {
+            width: 10%;
+        }
+        .col-date {
+            width: 10%;
+        }
+        .col-remarks {
+            width: 16%;
+        }
+        .sub-header {
+            background-color: #d0d0d0 !important;
+            font-weight: bold;
+        }
+        .control-point {
+            text-align: center;
+            font-weight: bold;
+        }
+        .section-number {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="company-name">江阴宇博科技有限公司</div>
+        <div class="company-name">Jiangyin Yubo Technology Co., Ltd.</div>
+        <div class="doc-title">ПЛАН КАЧЕСТВА ПРОДУКЦИИ СОСУДОВ ДАВЛЕНИЯ</div>
+        <div class="doc-info">
+            Номер документа: <strong>F06-006-0</strong><br>
+            Номер сертификата контроля: <strong>JY-RC-2025-AT-</strong>
+        </div>
+    </div>
+    
+    <div class="top-tables">
+        <div class="top-table-left">
+            <table class="info-table">
+                <tr>
+                    <td>Наименование изделия</td>
+                    <td>Башня сушильная</td>
+                </tr>
+                <tr>
+                    <td>Номер чертежа</td>
+                    <td>YB-23S1975-00</td>
+                </tr>
+                <tr>
+                    <td>Основной материал</td>
+                    <td>Q345R</td>
+                </tr>
+                <tr>
+                    <td>Проектная организация</td>
+                    <td>江阴宇博科技有限公司<br>(Jiangyin Yubo Technology Co., Ltd.)</td>
+                </tr>
+                <tr>
+                    <td>Номер лицензии на проектирование</td>
+                    <td>TS2232F86-2027</td>
+                </tr>
+            </table>
+        </div>
+        <div class="top-table-right">
+            <table class="info-table">
+                <tr>
+                    <td>Категория изделия</td>
+                    <td>Категория I</td>
+                </tr>
+                <tr>
+                    <td>Заводской номер</td>
+                    <td>V250353</td>
+                </tr>
+                <tr>
+                    <td>Основные размеры</td>
+                    <td>DN1800×10</td>
+                </tr>
+                <tr>
+                    <td>Дата проектирования</td>
+                    <td>2025年03月11日<br>(11 марта 2025 г.)</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <div class="key-codes">
+        <div class="key-codes-title">КЛЮЧЕВЫЕ КОДЫ</div>
+        <div class="key-codes-list">
+            <div class="key-codes-row">
+                <div class="key-code-item"><strong>H</strong> — Остановочная точка</div>
+                <div class="key-code-item"><strong>R</strong> — Точка проверки</div>
+                <div class="key-code-item"><strong>E</strong> — Точка контроля</div>
+            </div>
+            <div class="key-codes-row">
+                <div class="key-code-item"><strong>W</strong> — Точка свидетельствования</div>
+                <div class="key-code-item"><strong>A</strong> — Свидетельствование на месте</div>
+                <div class="key-code-item"><strong>B</strong> — Выборочная проверка на месте</div>
+            </div>
+            <div class="key-codes-row">
+                <div class="key-code-item"><strong>C</strong> — Подтверждение документации</div>
+            </div>
+        </div>
+    </div>
+    
+    <table class="main-table">
+        <thead>
+            <tr>
+                <th class="col-serial">№</th>
+                <th class="col-process">Процесс</th>
+                <th class="col-requirements">Требования к контролю и приёмке</th>
+                <th colspan="4" class="col-inspection">Сторона контроля</th>
+                <th class="col-remarks">Примечания</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th colspan="2" class="sub-header">Наш завод</th>
+                <th colspan="2" class="sub-header">Контроль и надзор</th>
+                <th></th>
+            </tr>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th class="col-control-point">Контрольная точка</th>
+                <th class="col-supervision">Точка надзора</th>
+                <th class="col-inspector">Контролёр</th>
+                <th class="col-date">Дата</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="section-number" rowspan="4">1</td>
+                <td class="section-number" rowspan="4">Подготовительные работы по изготовлению</td>
+                <td class="section-number">1.1 Проектная документация</td>
+                <td class="control-point">R</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Чертежи, расчётная книга,<br>Номер чертежа: YB-23S1975-00</td>
+            </tr>
+            <tr>
+                <td>Проверка квалификации проектной организации, утверждения общего чертежа проекта, полноты проектной документации, действительности нормативных документов/стандартов, соответствия технических требований «Правилам сосудов давления».</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number">1.2 Изменение проекта (при возникновении)</td>
+                <td class="control-point">R</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Лист изменений проекта</td>
+            </tr>
+            <tr>
+                <td>Проверка документов письменного утверждения исходной проектной организации.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number">1.3</td>
+                <td class="section-number">Карта технологии сварки</td>
+                <td>Проверка утверждения документов технологии сварки, соответствия технологии сварки и аттестации базовой технологии сварки (выборочная проверка одного сварного соединения).</td>
+                <td class="control-point">R</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Номер документа технологии сварки:<br>Номер шва:</td>
+            </tr>
+            <tr>
+                <td class="section-number">1.4</td>
+                <td class="section-number">План качества</td>
+                <td>Проверка процедур утверждения системы обеспечения качества, соответствия содержания правилам сосудов давления, стандартам и проектным требованиям.</td>
+                <td class="control-point">R</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>«План качества»</td>
+            </tr>
+            <tr>
+                <td class="section-number" rowspan="3">2</td>
+                <td class="section-number" rowspan="3">Приёмка материалов на склад (включая стальные листы, поковки, стальные трубы, покупные детали и сварочные материалы)</td>
+                <td class="section-number">2.1 Приёмка материалов</td>
+                <td class="control-point">H</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>1. Подтверждение приёмки контроля см. сертификат качества:<br>2. Сводное подтверждение см. ведомость материалов изделия</td>
+            </tr>
+            <tr>
+                <td>1. Проверка документов свидетельствования приёмки материалов основных элементов, работающих под давлением.<br>2. Проверка сертификатов качества материалов или сертификатов контроля материалов основных элементов, работающих под давлением.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number">2.2 Замена материалов (при возникновении)</td>
+                <td class="control-point">R</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Лист замены материалов</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Проверка документов письменного утверждения исходной проектной организации.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number">2.3</td>
+                <td class="section-number">Контроль переноса маркировки материалов</td>
+                <td>Проверка схемы переноса маркировки материалов основных элементов, работающих под давлением.</td>
+                <td class="control-point">R</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>1. Схема переноса маркировки материалов</td>
+            </tr>
+            <tr>
+                <td class="section-number" rowspan="3">3</td>
+                <td class="section-number" rowspan="3">Изготовление днища</td>
+                <td class="section-number">3.1 Раскрой</td>
+                <td class="control-point">E</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Получение квалифицированных материалов, перенос маркировки, размеры раскроя согласно чертежам и технологии.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number">3.2 Штамповка</td>
+                <td class="control-point">E</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Внешнее изготовление</td>
+            </tr>
+            <tr>
+                <td class="section-number">3.3</td>
+                <td class="section-number">Приёмка на заводе</td>
+                <td>Контроль формы и размеров согласно GB/T 25198, контроль разделки кромок стыкового шва согласно GB 150.4, проверка сертификата соответствия и сертификата контроля днища.</td>
+                <td class="control-point">R</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Протокол контроля днища</td>
+            </tr>
+            <tr>
+                <td class="section-number" rowspan="5">4</td>
+                <td class="section-number" rowspan="5">Изготовление обечайки</td>
+                <td class="section-number">4.1 Раскрой</td>
+                <td class="control-point">E</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Перенос маркировки материалов</td>
+            </tr>
+            <tr>
+                <td>(1) Раскрой на станке с ЧПУ, удаление окалины, заусенцев;<br>(2) Контроль переноса маркировки;<br>(3) Размеры раскроя и размеры разделки соответствуют чертежам и технологии.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number">4.2 Вальцовка и формовка</td>
+                <td class="control-point">E</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Контроль сборки, смещение соответствует GB/T150.4-2011.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number">4.3 Сварка (включая ремонт швов) и контроль</td>
+                <td class="control-point">E</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Протокол сварки, протокол швов</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Технология сварки (WPS), внешний вид и размеры соответствуют чертежам и технологии.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number">4.4</td>
+                <td class="section-number">Контроль обечайки после правки</td>
+                <td>(1) Внешний вид и размеры швов соответствуют GB150.4-2011;<br>(2) Контроль овальности, угловых отклонений соответствует GB/T150.4-2011.</td>
+                <td class="control-point">E</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number">4.5</td>
+                <td class="section-number">Неразрушающий контроль</td>
+                <td>Рентгенографический контроль 20%, NB/T 47013.2 класс III.</td>
+                <td class="control-point">E</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number" rowspan="2">5</td>
+                <td class="section-number" rowspan="2">Изготовление патрубков, фланцев и комплектующих</td>
+                <td class="section-number">5.1 Раскрой патрубков и комплектующих, механическая обработка фланцев и сборка сваркой</td>
+                <td class="control-point">E</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Протокол сварки</td>
+            </tr>
+            <tr>
+                <td>Получение квалифицированных материалов, перенос маркировки, внешний вид и размеры соответствуют чертежам и технологии.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number">5.2</td>
+                <td class="section-number">Сварка (включая ремонт швов) и контроль</td>
+                <td>Карта технологии сварки, внешний вид и размеры соответствуют чертежам и технологии.</td>
+                <td class="control-point">E</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Протокол сварки, протокол швов</td>
+            </tr>
+            <tr>
+                <td class="section-number" rowspan="6">6</td>
+                <td class="section-number" rowspan="6">Сборка</td>
+                <td class="section-number">6.1 Сборка обечайки и днища</td>
+                <td class="control-point">E</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Смещение, внешний вид и размеры соответствуют GB150.4-2011.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number">6.2 Сварка и контроль</td>
+                <td class="control-point">E</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Протокол сварки, протокол швов</td>
+            </tr>
+            <tr>
+                <td>WPS, внешний вид и размеры швов соответствуют технологии.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number">6.3 Неразрушающий контроль</td>
+                <td class="control-point">R</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Протокол сварки, протокол швов, таблица выборочной проверки рентгенограмм, протокол оценки, отчёт RT, номер рентгенограммы:</td>
+            </tr>
+            <tr>
+                <td>20%RT, NB/T 47013.2 класс III.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number">6.4</td>
+                <td class="section-number">Разметка патрубков и комплектующих, вырезка отверстий</td>
+                <td>Согласно требованиям к расположению на чертеже.</td>
+                <td class="control-point">EH</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number">6.4</td>
+                <td class="section-number">Сборка патрубков, опорной юбки, основания таблички</td>
+                <td>Расположение сборки, высота патрубков, зазор сборки соответствуют чертежам и технологии.</td>
+                <td class="control-point">E</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number">6.5</td>
+                <td class="section-number">Сварка и контроль</td>
+                <td>WPS, внешний вид и размеры швов соответствуют технологии.</td>
+                <td class="control-point">E</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Протокол сварки, протокол швов</td>
+            </tr>
+            <tr>
+                <td class="section-number">6.6</td>
+                <td class="section-number">Неразрушающий контроль дефектов</td>
+                <td>Магнитопорошковый контроль швов E1-E2, соответствует NB/T47013.4-2015, класс I.</td>
+                <td class="control-point">R</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number">7</td>
+                <td class="section-number">Сварка и контроль</td>
+                <td class="section-number">7.1 Сварка (включая ремонт швов) и контроль</td>
+                <td class="control-point">E</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Протокол сварки, протокол швов, номер сварного соединения:</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Выборочная проверка квалификации сварщиков, сварочных материалов, соответствия фактических параметров процесса сварки технологическим инструкциям по сварке.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number" rowspan="2">8</td>
+                <td class="section-number" rowspan="2">Неразрушающий контроль</td>
+                <td class="section-number">8.1 Проверка записей и отчётов неразрушающего контроля</td>
+                <td class="control-point">E</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Записи и отчёты неразрушающего контроля</td>
+            </tr>
+            <tr>
+                <td>1. Проверка сертификатов квалификации персонала неразрушающего контроля;<br>2. Процедуры утверждения технологии и отчётов неразрушающего контроля;<br>3. Момент, доля, место проведения, технические стандарты выполнения неразрушающего контроля.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number">8.2</td>
+                <td class="section-number">Проверка рентгенограмм</td>
+                <td class="control-point">E</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Таблица выборочной проверки оригинальных рентгенограмм завода: таблица записей контроля или номер выборочной рентгенограммы см. примечание 3</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>1. Проверка качества рентгенограмм и оценки на соответствие «Правилам сосудов давления», стандартам продукции и требованиям проектной документации.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number" rowspan="2">9</td>
+                <td class="section-number" rowspan="2">Внешний вид и геометрические размеры</td>
+                <td class="section-number">9.1 Проверка записей и отчётов</td>
+                <td class="control-point">R</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Исполнительный чертёж, перенос маркировки материалов, схема клейм сварщиков, отчёт контроля геометрических размеров, место выборочной проверки:, номер шва:</td>
+            </tr>
+            <tr>
+                <td>1. Проверка процедур утверждения отчётов контроля внешнего вида и геометрических размеров;<br>2. Проверка чертежей расположения патрубков, чертежей расположения швов, отчётов контроля внешнего вида и геометрических размеров на соответствие требованиям чертежей.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number">9.2</td>
+                <td class="section-number">Макроскопический осмотр</td>
+                <td>1. Проверка расположения швов;<br>2. Выборочная проверка основного металла, поверхности швов.</td>
+                <td class="control-point">E</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number">10</td>
+                <td class="section-number">Гидравлические испытания</td>
+                <td>Давление гидравлических испытаний 1.56 МПа, соответствует «Правилам сосудов давления», GB150.4-2011 и требованиям чертежей.</td>
+                <td class="control-point">ERWH</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Отчёт гидравлических испытаний</td>
+            </tr>
+            <tr>
+                <td class="section-number">11</td>
+                <td class="section-number">Очистка поверхности оборудования, окраска</td>
+                <td>Согласно требованиям чертежей или техническим требованиям.</td>
+                <td class="control-point">E</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="section-number">12</td>
+                <td class="section-number">Проверка документации при выпуске</td>
+                <td>Документация при выпуске продукции (исполнительный чертёж, документы качества) соответствует правилам сосудов давления; процедуры утверждения изменений и модификаций проекта:</td>
+                <td class="control-point">R</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Исполнительный чертёж, отчёт данных продукции</td>
+            </tr>
+            <tr>
+                <td class="section-number">13</td>
+                <td class="section-number">Проверка сертификата соответствия изделия</td>
+                <td>Соответствует требованиям «Правил сосудов давления», нанесено клеймо TS контроля.</td>
+                <td class="control-point">R</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Сертификат соответствия</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div style="margin-top: 20px; font-size: 9pt;">
+        <div style="margin: 10px 0; padding: 8px; border: 1px solid #000; background-color: #fafafa;">
+            <div style="font-weight: bold; margin-bottom: 5px;">Примечания:</div>
+            <div>1. Подписи контролёров завода и ответственных за контроль см. в технологической карте, данный план качества не проходит по процессу.</div>
+            <div>2. Прочие подтверждения: □ Ремонт сварки, дата подтверждения:</div>
+            <div>3. Номер выборочной рентгенограммы:</div>
+            <div>□ Номер формы связи контроля/мнения контроля:</div>
+        </div>
+        
+        <div style="display: table; width: 100%; margin-top: 15px; font-size: 9pt;">
+            <div style="display: table-cell; width: 25%; padding: 5px; vertical-align: top;">
+                <strong>Составил:</strong><br>
+                <span style="font-weight: bold; color: #c00;">永春霞</span> (Юн Чунься)<br>
+                <strong>Дата:</strong> 2025年03月11日<br>
+                (11 марта 2025 г.)
+            </div>
+            <div style="display: table-cell; width: 25%; padding: 5px; vertical-align: top;">
+                <strong>Проверил:</strong><br>
+                <span style="font-weight: bold; color: #c00;">李华</span> (Ли Хуа)<br>
+                <strong>Дата:</strong> 2025年03月11日<br>
+                (11 марта 2025 г.)
+            </div>
+            <div style="display: table-cell; width: 25%; padding: 5px; vertical-align: top;">
+                <strong>Утвердил:</strong><br>
+                <span style="font-weight: bold; color: #c00;">安吉</span> (Ань Цзи)<br>
+                <strong>Дата:</strong> 2025年03月11日<br>
+                (11 марта 2025 г.)
+            </div>
+            <div style="display: table-cell; width: 25%; padding: 5px; vertical-align: top;">
+                <strong>Контролёр надзора:</strong><br>
+                <span style="font-weight: bold;"></span><br>
+                <strong>Дата:</strong> 年月日<br>
+                □ Подтверждаю, что содержание плана качества соответствует требованиям
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
