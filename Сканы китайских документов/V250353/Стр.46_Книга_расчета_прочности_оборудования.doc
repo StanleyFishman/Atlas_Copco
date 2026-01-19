@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word">
+    <meta name="Originator" content="Microsoft Word">
+    <title>Книга расчёта прочности технологического оборудования</title>
+    <!--[if gte mso 9]><xml>
+     <w:WordDocument>
+      <w:View>Print</w:View>
+      <w:Zoom>90</w:Zoom>
+      <w:DoNotOptimizeForBrowser/>
+     </w:WordDocument>
+    </xml><![endif]-->
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 20mm 15mm 20mm;
+        }
+        body {
+            font-family: 'Times New Roman', SimSun, serif;
+            font-size: 9pt;
+            margin: 0;
+            padding: 15px;
+            line-height: 1.4;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .doc-title {
+            font-size: 16pt;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .doc-number {
+            text-align: right;
+            font-size: 10pt;
+            margin-bottom: 15px;
+        }
+        .section-title {
+            font-weight: bold;
+            font-size: 11pt;
+            margin: 15px 0 8px 0;
+            text-align: center;
+        }
+        .calc-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 9pt;
+            margin: 10px 0;
+        }
+        .calc-table th, .calc-table td {
+            border: 1px solid #000;
+            padding: 5px 8px;
+            vertical-align: middle;
+        }
+        .calc-table th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+            text-align: center;
+        }
+        .calc-table td:first-child {
+            font-weight: bold;
+            width: 35%;
+        }
+        .calc-table td {
+            text-align: left;
+        }
+        .calc-table td:not(:first-child) {
+            text-align: center;
+        }
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 9pt;
+        }
+        .page-number {
+            text-align: right;
+            margin-top: 10px;
+            font-size: 9pt;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="doc-title">КНИГА РАСЧЁТА ПРОЧНОСТИ ТЕХНОЛОГИЧЕСКОГО ОБОРУДОВАНИЯ</div>
+        <div class="doc-number">Номер документа: <strong>SW6-2011</strong></div>
+    </div>
+    
+    <div class="section-title">1. Проверка вертикального сосуда с мешалкой — Условия проектирования обечайки</div>
+    <table class="calc-table">
+        <thead>
+            <tr>
+                <th>Параметр</th>
+                <th>Единица измерения</th>
+                <th>Внутренняя обечайка</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Расчётное давление p</td>
+                <td>МПа</td>
+                <td>1.1</td>
+            </tr>
+            <tr>
+                <td>Расчётная температура t</td>
+                <td>℃</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td>Внутренний диаметр D</td>
+                <td>мм</td>
+                <td>1800</td>
+            </tr>
+            <tr>
+                <td>Номинальная толщина δ</td>
+                <td>мм</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Наименование материала</td>
+                <td></td>
+                <td>Q345R</td>
+            </tr>
+            <tr>
+                <td>Допускаемое напряжение [σ]</td>
+                <td></td>
+                <td>189</td>
+            </tr>
+            <tr>
+                <td>Допускаемое напряжение [σ]'</td>
+                <td>МПа</td>
+                <td>167</td>
+            </tr>
+            <tr>
+                <td>Предел текучести Re при температуре гидравлических испытаний</td>
+                <td></td>
+                <td>345</td>
+            </tr>
+            <tr>
+                <td>Отрицательное отклонение толщины C</td>
+                <td>мм</td>
+                <td>0.3</td>
+            </tr>
+            <tr>
+                <td>Припуск на коррозию G</td>
+                <td>мм</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Дополнительная толщина C=G+G</td>
+                <td>мм</td>
+                <td>1.3</td>
+            </tr>
+            <tr>
+                <td>Коэффициент сварного соединения φ</td>
+                <td></td>
+                <td>0.85</td>
+            </tr>
+            <tr>
+                <td>Тип гидравлических испытаний</td>
+                <td></td>
+                <td>Гидравлические</td>
+            </tr>
+            <tr>
+                <td>Испытательное давление p</td>
+                <td>МПа</td>
+                <td>1.56</td>
+            </tr>
+                <tr>
+                <td>Длина обечайки Lw</td>
+                <td>мм</td>
+                <td>1800</td>
+            </tr>
+            <tr>
+                <td>Расчётная длина внутренней обечайки при внешнем давлении L'</td>
+                <td>мм</td>
+                <td>1800</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div class="section-title">2. Условия проектирования днища</div>
+    <table class="calc-table">
+        <thead>
+            <tr>
+                <th>Параметр</th>
+                <th>Единица измерения</th>
+                <th>Верхнее днище обечайки</th>
+                <th>Нижнее днище обечайки</th>
+                <th>Днище рубашки</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Форма днища</td>
+                <td></td>
+                <td>Эллиптическое</td>
+                <td>Эллиптическое</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Номинальная толщина δ</td>
+                <td>мм</td>
+                <td>10</td>
+                <td>10</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Наименование материала</td>
+                <td></td>
+                <td>Q345R</td>
+                <td>Q345R</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Допускаемое напряжение [σ]' при расчётной температуре</td>
+                <td>МПа</td>
+                <td>167</td>
+                <td>167</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Отрицательное отклонение толщины C</td>
+                <td>мм</td>
+                <td>0.3</td>
+                <td>0.3</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Припуск на коррозию G</td>
+                <td>мм</td>
+                <td>1+1(припуск на утонение при штамповке)</td>
+                <td>1+1(припуск на утонение при штамповке)</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Дополнительная толщина C=G+G</td>
+                <td>мм</td>
+                <td>2.3</td>
+                <td>2.3</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Коэффициент сварного соединения φ</td>
+                <td></td>
+                <td>1</td>
+                <td>1</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div class="section-title">3. Основные результаты расчёта</div>
+    <table class="calc-table">
+        <thead>
+            <tr>
+                <th>Параметр</th>
+                <th>Внутренняя обечайка</th>
+                <th>Верхнее днище внутренней обечайки</th>
+                <th>Нижнее днище внутренней обечайки</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Результат проверки</td>
+                <td>Проверка пройдена</td>
+                <td>Проверка пройдена</td>
+                <td>Проверка пройдена</td>
+            </tr>
+            <tr>
+                <td>Масса m, кг</td>
+                <td>803.45</td>
+                <td>281.21</td>
+                <td>281.21</td>
+            </tr>
+            <tr>
+                <td>Расчётный диаметр вала мешалки, мм</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div class="section-title">4. Примечания</div>
+    <table class="calc-table">
+        <thead>
+            <tr>
+                <th>Примечания</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div class="footer">
+        <div>Национальный центр проектирования химического оборудования</div>
+        <div class="page-number">Страница 1</div>
+    </div>
+</body>
+</html>
+

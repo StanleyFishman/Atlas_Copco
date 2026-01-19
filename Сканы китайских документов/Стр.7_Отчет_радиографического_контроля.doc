@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word">
+    <meta name="Originator" content="Microsoft Word">
+    <title>Отчёт радиографического контроля сварных швов</title>
+    <!--[if gte mso 9]><xml>
+     <w:WordDocument>
+      <w:View>Print</w:View>
+      <w:Zoom>90</w:Zoom>
+      <w:DoNotOptimizeForBrowser/>
+     </w:WordDocument>
+    </xml><![endif]-->
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 20mm 15mm 20mm;
+        }
+        body {
+            font-family: 'Times New Roman', SimSun, serif;
+            font-size: 10pt;
+            margin: 0;
+            padding: 15px;
+            line-height: 1.3;
+        }
+        .logo-header {
+            margin-bottom: 10px;
+        }
+        .logo {
+            font-size: 14pt;
+            font-weight: bold;
+            color: #003366;
+        }
+        .logo-sub {
+            font-size: 9pt;
+            color: #003366;
+        }
+        .title {
+            text-align: center;
+            font-size: 16pt;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        .product-info {
+            display: table;
+            width: 100%;
+            margin-bottom: 15px;
+            font-size: 10pt;
+        }
+        .product-left {
+            display: table-cell;
+            text-align: left;
+            width: 50%;
+        }
+        .product-right {
+            display: table-cell;
+            text-align: right;
+            width: 50%;
+        }
+        .setup-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 9pt;
+            margin-bottom: 15px;
+        }
+        .setup-table td {
+            border: 1px solid #000;
+            padding: 4px 6px;
+            vertical-align: top;
+        }
+        .setup-table td:first-child {
+            font-weight: bold;
+            width: 120px;
+            background-color: #f5f5f5;
+        }
+        .setup-table td:nth-child(2) {
+            width: 150px;
+        }
+        .setup-table td:nth-child(3) {
+            font-weight: bold;
+            width: 120px;
+            background-color: #f5f5f5;
+        }
+        .setup-table td:nth-child(4) {
+            width: 150px;
+        }
+        .main-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 8pt;
+            margin-bottom: 15px;
+        }
+        .main-table th, .main-table td {
+            border: 1px solid #000;
+            padding: 3px 4px;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .main-table th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+        .main-table td {
+            text-align: center;
+        }
+        .results-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 9pt;
+            margin-bottom: 15px;
+        }
+        .results-table td {
+            border: 1px solid #000;
+            padding: 4px 6px;
+            vertical-align: top;
+        }
+        .results-table td:first-child {
+            font-weight: bold;
+            width: 120px;
+            background-color: #f5f5f5;
+        }
+        .text-section {
+            margin: 15px 0;
+            font-size: 9pt;
+            line-height: 1.6;
+        }
+        .text-section p {
+            margin: 5px 0;
+        }
+        .signatures {
+            display: table;
+            width: 100%;
+            margin-top: 20px;
+            font-size: 10pt;
+        }
+        .sig-block {
+            display: table-cell;
+            width: 33%;
+            padding: 0 10px;
+        }
+        .sig-name {
+            font-weight: bold;
+            color: #c00;
+        }
+        .date-block {
+            text-align: right;
+        }
+        .doc-number {
+            text-align: right;
+            font-size: 9pt;
+            margin-top: 10px;
+        }
+        .checkbox {
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-header">
+        <span class="logo">宇博科技</span><br>
+        <span class="logo-sub">YUBO TECH</span>
+    </div>
+    
+    <div class="title">ОТЧЁТ РАДИОГРАФИЧЕСКОГО КОНТРОЛЯ СВАРНЫХ ШВОВ</div>
+    
+    <div class="product-info">
+        <div class="product-left"><strong>Заводской номер:</strong> V250353</div>
+        <div class="product-right"><strong>Наименование изделия:</strong> Осушитель</div>
+    </div>
+    
+    <table class="setup-table">
+        <tr>
+            <td>Марка материала</td>
+            <td>Q345R</td>
+            <td>Вид источника</td>
+            <td><span class="checkbox">☑</span> Ir192 <span class="checkbox">☐</span> Co60</td>
+        </tr>
+        <tr>
+            <td>Размер фокусного пятна</td>
+            <td>3×1 мм</td>
+            <td>Способ усиления</td>
+            <td><span class="checkbox">☑</span> PbFe передний экран 0.03 задний экран 0.03</td>
+        </tr>
+        <tr>
+            <td>Модель индикатора качества изображения</td>
+            <td>10FeJB</td>
+            <td>Формула проявителя</td>
+            <td>花冠牌 (Huaguan)</td>
+        </tr>
+        <tr>
+            <td>Технический уровень радиографического контроля</td>
+            <td><span class="checkbox">☑</span> A <span class="checkbox">☑</span> B</td>
+            <td>Момент контроля</td>
+            <td>После сварки</td>
+        </tr>
+        <tr>
+            <td>Модель оборудования</td>
+            <td>XXHA3005</td>
+            <td>Марка плёнки</td>
+            <td>AGFA-C7</td>
+        </tr>
+        <tr>
+            <td>Спецификация плёнки</td>
+            <td>360×80 мм</td>
+            <td>Условия промывки</td>
+            <td><span class="checkbox">☑</span> Ручная <span class="checkbox">☐</span> Автоматическая</td>
+        </tr>
+        <tr>
+            <td>Условия проявления</td>
+            <td>Время 5 мин; Температура 20±2℃</td>
+            <td>Плотность рентгенограммы</td>
+            <td>2.0~4.5</td>
+        </tr>
+    </table>
+    
+    <table class="main-table">
+        <thead>
+            <tr>
+                <th rowspan="2">№ шва</th>
+                <th rowspan="2">Толщина просвечивания (мм)</th>
+                <th rowspan="2">Способ просвечивания</th>
+                <th rowspan="2">F (фокусное расстояние) (мм)</th>
+                <th rowspan="2">Энергия (кВ)</th>
+                <th rowspan="2">Ток трубки (активность источника) мА(Бк)</th>
+                <th rowspan="2">Время экспозиции (мин)</th>
+                <th rowspan="2">Требуемая чувствительность качества изображения (номер проволоки)</th>
+                <th rowspan="2">Длина шва (мм)</th>
+                <th rowspan="2">Длина однократного просвечивания (мм)</th>
+                <th rowspan="2">Уровень приемки (уровень)</th>
+                <th rowspan="2">Требуемый процент контроля (%)</th>
+                <th rowspan="2">Фактический процент контроля (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A1</td>
+                <td>10</td>
+                <td>Одностенная однопроходная</td>
+                <td>700</td>
+                <td>180</td>
+                <td>5</td>
+                <td>3.0</td>
+                <td>13</td>
+                <td>1800</td>
+                <td>300</td>
+                <td>III</td>
+                <td>≥20</td>
+                <td>33.3</td>
+            </tr>
+            <tr>
+                <td>A2</td>
+                <td>14</td>
+                <td>Одностенная однопроходная</td>
+                <td>700</td>
+                <td>210</td>
+                <td>5</td>
+                <td>3.0</td>
+                <td>12</td>
+                <td>171</td>
+                <td>171</td>
+                <td>III</td>
+                <td>≥20</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>B1</td>
+                <td>10</td>
+                <td>Центральное просвечивание</td>
+                <td>910</td>
+                <td>180</td>
+                <td>5</td>
+                <td>5.0</td>
+                <td>13</td>
+                <td>5715</td>
+                <td>280</td>
+                <td>III</td>
+                <td>≥20</td>
+                <td>24.5</td>
+            </tr>
+            <tr>
+                <td>B2</td>
+                <td>10</td>
+                <td>Одностенная наружная</td>
+                <td>700</td>
+                <td>180</td>
+                <td>5</td>
+                <td>3.0</td>
+                <td>13</td>
+                <td>5715</td>
+                <td>280</td>
+                <td>III</td>
+                <td>≥20</td>
+                <td>24.5</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <table class="results-table">
+        <tr>
+            <td>Стандарт контроля</td>
+            <td>NB/T47013.2-2015</td>
+        </tr>
+        <tr>
+            <td>Номер инструкции по эксплуатации</td>
+            <td>YBRT-001/002</td>
+        </tr>
+        <tr>
+            <td>Принято (количество снимков)</td>
+            <td>
+                Швы класса A: 3<br>
+                Швы класса B: 10<br>
+                Пересекающиеся швы: 2<br>
+                Всего: 13
+            </td>
+        </tr>
+        <tr>
+            <td>Окончательный результат (количество снимков)</td>
+            <td>
+                Оценка: 11<br>
+                I: 11<br>
+                II: 2<br>
+                III: 1<br>
+                IV: 1
+            </td>
+        </tr>
+    </table>
+    
+    <div class="text-section">
+        <p><strong>Описание дефектов и ремонта:</strong></p>
+        <p>1. Данное изделие отремонтировано всего / мест, максимальное количество ремонтов / раз.</p>
+        <p>2. Участки с дефектами, превышающими норму, после ремонта прошли повторную проверку и признаны годными.</p>
+        <p>3. Исходное состояние дефектов в отремонтированных участках подробно описано в таблице оценки рентгенограмм сварных швов.</p>
+    </div>
+    
+    <div class="text-section">
+        <p><strong>Результаты контроля:</strong></p>
+        <p>1. Качество сварных швов данного изделия соответствует требованиям уровня III, результаты признаны годными.</p>
+        <p>2. Места контроля и состояние рентгенограмм подробно описаны в таблице оценки рентгенограмм сварных швов и схеме расположения радиографического контроля, прилагаемых отдельно.</p>
+    </div>
+    
+    <div class="signatures">
+        <div class="sig-block">
+            <strong>Составитель (квалификация):</strong><br>
+            <span class="sig-name">陶国红</span> (Тао Гохунун)<br>
+            RT-II
+        </div>
+        <div class="sig-block">
+            <strong>Проверяющий (квалификация):</strong><br>
+            <span class="sig-name">周肄彬</span> (Чжоу Ибинь)<br>
+            RT-II
+        </div>
+        <div class="sig-block date-block">
+            <strong>Дата:</strong><br>
+            <strong>25年04月16日</strong><br>
+            (16 апреля 2025 г.)
+        </div>
+    </div>
+    
+    <div class="doc-number">
+        Номер документа: <strong>F16-002-1</strong>
+    </div>
+</body>
+</html>

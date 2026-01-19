@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word">
+    <meta name="Originator" content="Microsoft Word">
+    <title>Расчёт верхнего эллиптического днища внутреннего цилиндра</title>
+    <!--[if gte mso 9]><xml>
+     <w:WordDocument>
+      <w:View>Print</w:View>
+      <w:Zoom>90</w:Zoom>
+      <w:DoNotOptimizeForBrowser/>
+     </w:WordDocument>
+    </xml><![endif]-->
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 20mm 15mm 20mm;
+        }
+        body {
+            font-family: 'Times New Roman', SimSun, serif;
+            font-size: 10pt;
+            margin: 0;
+            padding: 15px;
+            line-height: 1.6;
+        }
+        .header {
+            text-align: center;
+            font-size: 14pt;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .doc-number {
+            text-align: right;
+            font-size: 9pt;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .section-title {
+            font-size: 12pt;
+            font-weight: bold;
+            margin: 20px 0 10px 0;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #000;
+        }
+        .subtitle {
+            font-size: 11pt;
+            font-weight: bold;
+            margin: 15px 0;
+            color: #0066cc;
+        }
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 9pt;
+        }
+        .info-table td {
+            border: 1px solid #000;
+            padding: 6px 10px;
+            vertical-align: middle;
+        }
+        .info-table .label {
+            background-color: #f0f0f0;
+            font-weight: bold;
+            width: 30%;
+        }
+        .info-table .value {
+            width: 20%;
+            text-align: right;
+        }
+        .info-table .unit {
+            width: 15%;
+            text-align: left;
+            font-style: italic;
+        }
+        .diagram-section {
+            display: table;
+            width: 100%;
+            margin: 20px 0;
+        }
+        .diagram-left {
+            display: table-cell;
+            width: 70%;
+            vertical-align: top;
+        }
+        .diagram-right {
+            display: table-cell;
+            width: 30%;
+            vertical-align: middle;
+            text-align: center;
+            padding-left: 20px;
+        }
+        .diagram {
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            padding: 15px;
+            text-align: center;
+        }
+        .diagram-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .diagram-sketch {
+            margin: 15px 0;
+            font-size: 9pt;
+        }
+        .calculation-section {
+            margin: 20px 0;
+        }
+        .calculation-item {
+            margin: 10px 0;
+            padding: 8px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #0066cc;
+        }
+        .calculation-label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .calculation-formula {
+            font-family: 'Courier New', monospace;
+            font-size: 9pt;
+            margin: 5px 0;
+            padding-left: 20px;
+        }
+        .calculation-value {
+            font-weight: bold;
+            color: #c00;
+            margin-top: 5px;
+        }
+        .check-result {
+            margin: 15px 0;
+            padding: 10px;
+            border: 2px solid #0066cc;
+            background-color: #e6f3ff;
+        }
+        .check-result.qualified {
+            border-color: #00aa00;
+            background-color: #e6ffe6;
+        }
+        .check-result .condition {
+            font-family: 'Courier New', monospace;
+            font-size: 9pt;
+            margin: 5px 0;
+        }
+        .check-result .result {
+            font-weight: bold;
+            font-size: 11pt;
+            color: #00aa00;
+            margin-top: 10px;
+        }
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 9pt;
+            color: #666;
+        }
+        .page-number {
+            text-align: right;
+            margin-top: 20px;
+            font-size: 9pt;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="doc-number">SW6-2011</div>
+    
+    <div class="header">过程设备强度计算书<br>Process Equipment Strength Calculation Book</div>
+    
+    <div class="subtitle">内筒上封头内压计算<br>Internal Cylinder Upper Head Internal Pressure Calculation</div>
+    
+    <div class="diagram-section">
+        <div class="diagram-left">
+            <table class="info-table">
+                <tr>
+                    <td class="label">计算所依据的标准<br>(Standard for Calculation)</td>
+                    <td class="value" colspan="3">GB/T 150.3-2011</td>
+                </tr>
+                <tr>
+                    <td class="label">计算单位<br>(Calculation Unit)</td>
+                    <td class="value" colspan="3">江阴宇博科技有限公司<br>(Цзянъинь Юбо Технолоджи Ко., Лтд.)</td>
+                </tr>
+            </table>
+        </div>
+        <div class="diagram-right">
+            <div class="diagram">
+                <div class="diagram-title">椭圆封头简图<br>(Elliptical Head Diagram)</div>
+                <div class="diagram-sketch">
+                    <div style="border: 2px solid #000; width: 120px; height: 60px; margin: 10px auto; border-radius: 0 0 120px 120px; position: relative;">
+                        <div style="position: absolute; left: 5px; top: 50%; transform: translateY(-50%); font-size: 8pt;">Di</div>
+                        <div style="position: absolute; right: 5px; top: 50%; transform: translateY(-50%); font-size: 8pt;">hi</div>
+                        <div style="position: absolute; left: 50%; bottom: -15px; transform: translateX(-50%); font-size: 8pt;">δn</div>
+                    </div>
+                </div>
+                <div style="font-size: 8pt; margin-top: 10px;">
+                    Di - внутренний диаметр<br>
+                    (Internal Diameter)<br>
+                    hi - высота криволинейной части<br>
+                    (Curved Surface Depth)<br>
+                    δn - номинальная толщина<br>
+                    (Nominal Thickness)
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section-title">计算条件 (Calculation Conditions)</div>
+    
+    <table class="info-table">
+        <tr>
+            <td class="label">设计压力 P<br>(Design Pressure P)</td>
+            <td class="value"><strong>1.10</strong></td>
+            <td class="unit">MPa</td>
+            <td class="label">设计温度 t<br>(Design Temperature t)</td>
+            <td class="value"><strong>250.00</strong></td>
+            <td class="unit">°C</td>
+        </tr>
+        <tr>
+            <td class="label">内径 Di<br>(Internal Diameter Di)</td>
+            <td class="value"><strong>1800.00</strong></td>
+            <td class="unit">mm</td>
+            <td class="label">曲面深度 hi<br>(Curved Surface Depth hi)</td>
+            <td class="value"><strong>450.00</strong></td>
+            <td class="unit">mm</td>
+        </tr>
+        <tr>
+            <td class="label">材料<br>(Material)</td>
+            <td class="value" colspan="2"><strong>Q345R</strong> (板材 - Plate Material)</td>
+            <td class="label">设计温度许用应力 [σ]<br>(Allowable Stress at Design Temperature [σ])</td>
+            <td class="value"><strong>167.00</strong></td>
+            <td class="unit">MPa</td>
+        </tr>
+        <tr>
+            <td class="label">试验温度许用应力 [σ]t<br>(Allowable Stress at Test Temperature [σ]t)</td>
+            <td class="value"><strong>189.00</strong></td>
+            <td class="unit">MPa</td>
+            <td class="label">负偏差 C1<br>(Negative Tolerance C1)</td>
+            <td class="value"><strong>0.30</strong></td>
+            <td class="unit">mm</td>
+        </tr>
+        <tr>
+            <td class="label">腐蚀裕量 C2<br>(Corrosion Allowance C2)</td>
+            <td class="value"><strong>1+1</strong></td>
+            <td class="unit">mm<br>(压制减薄量 - Pressing Thinning Allowance)</td>
+            <td class="label">焊接接头系数 φ<br>(Weld Joint Coefficient φ)</td>
+            <td class="value"><strong>1.00</strong></td>
+            <td class="unit">-</td>
+        </tr>
+    </table>
+    
+    <div class="section-title">压力试验时应力校核 (Stress Check during Pressure Test)</div>
+    
+    <table class="info-table">
+        <tr>
+            <td class="label">压力试验类型<br>(Pressure Test Type)</td>
+            <td class="value" colspan="2"><strong>液压试验</strong> (Hydrostatic Test)</td>
+        </tr>
+    </table>
+    
+    <div class="calculation-item">
+        <div class="calculation-label">试验压力值 (Test Pressure Value):</div>
+        <div class="calculation-formula">Pt = 1.25P[σ] / [σ]t = 1.25 × 1.10 × 189.00 / 189.00</div>
+        <div class="calculation-value">Pt = <strong>1.5600 MPa</strong></div>
+        <div style="font-size: 8pt; color: #666; margin-top: 3px;">(或由用户输入 - or user input)</div>
+    </div>
+    
+    <div class="calculation-item">
+        <div class="calculation-label">压力试验允许通过的应力水平 [σ]t (Allowable Stress Level for Pressure Test [σ]t):</div>
+        <div class="calculation-formula">[σ]t ≤ 0.90 Re</div>
+        <div class="calculation-value">[σ]t = 0.90 × 345.00 = <strong>310.50 MPa</strong></div>
+    </div>
+    
+    <div class="calculation-item">
+        <div class="calculation-label">试验压力下封头的应力 (Stress of Head under Test Pressure):</div>
+        <div class="calculation-formula">σt = Pt × (KDi + 0.5δn) / (2δn × φ)</div>
+        <div class="calculation-value">σt = 1.5600 × (1.0000 × 1800.00 + 0.5 × 10.00) / (2 × 10.00 × 1.00) = <strong>182.73 MPa</strong></div>
+    </div>
+    
+    <div class="check-result qualified">
+        <div class="calculation-label">校核条件 (Check Condition):</div>
+        <div class="condition">σt ≤ [σ]t</div>
+        <div style="margin-top: 10px;">182.73 MPa ≤ 310.50 MPa</div>
+        <div class="result">校核结果 (Check Result): ✓ 合格 (Pass)</div>
+    </div>
+    
+    <div class="section-title">厚度及重量计算 (Thickness and Weight Calculation)</div>
+    
+    <div class="calculation-item">
+        <div class="calculation-label">形状系数 K (Shape Factor K):</div>
+        <div class="calculation-formula">K = (1/6) × [2 + (Di / (2hi))²]</div>
+        <div class="calculation-value">K = (1/6) × [2 + (1800.00 / (2 × 450.00))²] = <strong>1.0000</strong></div>
+    </div>
+    
+    <div class="calculation-item">
+        <div class="calculation-label">计算厚度 δn (Calculated Thickness δn):</div>
+        <div class="calculation-formula">δn = (P × K × Di) / (2 × [σ] × φ - 0.5 × P)</div>
+        <div class="calculation-value">δn = (1.10 × 1.0000 × 1800.00) / (2 × 167.00 × 1.00 - 0.5 × 1.10) = <strong>5.94 mm</strong></div>
+    </div>
+    
+    <div class="calculation-item">
+        <div class="calculation-label">有效厚度 δeff (Effective Thickness δeff):</div>
+        <div class="calculation-formula">δeff = δn + C1 + C2</div>
+        <div class="calculation-value">δeff = 5.94 + 0.30 + 2.00 = <strong>7.70 mm</strong></div>
+        <div style="font-size: 8pt; color: #666; margin-top: 3px;">(C2 = 1 + 1 = 2.00 mm - 腐蚀裕量 + 压制减薄量)</div>
+    </div>
+    
+    <div class="calculation-item">
+        <div class="calculation-label">最小厚度 δmin (Minimum Thickness δmin):</div>
+        <div class="calculation-value">δmin = <strong>3.00 mm</strong></div>
+    </div>
+    
+    <div class="calculation-item">
+        <div class="calculation-label">名义厚度 δ (Nominal Thickness δ):</div>
+        <div class="calculation-value">δ = <strong>10.00 mm</strong></div>
+    </div>
+    
+    <div class="check-result qualified">
+        <div class="result">结论 (Conclusion): ✓ 满足最小厚度要求 (Meets minimum thickness requirement)</div>
+    </div>
+    
+    <div class="calculation-item">
+        <div class="calculation-label">重量 (Weight):</div>
+        <div class="calculation-value"><strong>281.21 Kg</strong></div>
+    </div>
+    
+    <div class="section-title">压力计算 (Pressure Calculation)</div>
+    
+    <div class="calculation-item">
+        <div class="calculation-label">最大允许工作压力 (Maximum Allowable Working Pressure):</div>
+        <div class="calculation-formula">[P] = (2 × [σ] × φ × δn) / (K × Di + 0.5 × δn)</div>
+        <div class="calculation-value">[P] = (2 × 167.00 × 1.00 × 10.00) / (1.0000 × 1800.00 + 0.5 × 10.00) = <strong>1.42573 MPa</strong></div>
+    </div>
+    
+    <div class="check-result qualified">
+        <div class="result">结论 (Conclusion): ✓ 合格 (Pass)</div>
+    </div>
+    
+    <div class="footer">
+        全国化工设备设计技术中心站<br>
+        (National Chemical Equipment Design Technology Center)
+    </div>
+    
+    <div class="page-number">3</div>
+</body>
+</html>
+

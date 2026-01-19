@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word">
+    <meta name="Originator" content="Microsoft Word">
+    <title>Расчёт давления внутренней обечайки</title>
+    <!--[if gte mso 9]><xml>
+     <w:WordDocument>
+      <w:View>Print</w:View>
+      <w:Zoom>90</w:Zoom>
+      <w:DoNotOptimizeForBrowser/>
+     </w:WordDocument>
+    </xml><![endif]-->
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 20mm 15mm 20mm;
+        }
+        body {
+            font-family: 'Times New Roman', SimSun, serif;
+            font-size: 9pt;
+            margin: 0;
+            padding: 15px;
+            line-height: 1.4;
+        }
+        .header {
+            margin-bottom: 15px;
+        }
+        .doc-title {
+            font-size: 14pt;
+            font-weight: bold;
+            margin: 10px 0;
+            text-align: center;
+        }
+        .doc-info {
+            font-size: 9pt;
+            margin-bottom: 10px;
+        }
+        .doc-info-right {
+            text-align: right;
+            font-size: 10pt;
+        }
+        .section-title {
+            font-weight: bold;
+            font-size: 11pt;
+            margin: 15px 0 8px 0;
+        }
+        .calc-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 9pt;
+            margin: 10px 0;
+        }
+        .calc-table th, .calc-table td {
+            border: 1px solid #000;
+            padding: 5px 8px;
+            vertical-align: middle;
+        }
+        .calc-table th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+            text-align: center;
+        }
+        .calc-table td:first-child {
+            font-weight: bold;
+            width: 40%;
+        }
+        .calc-table td {
+            text-align: left;
+        }
+        .calc-table td:not(:first-child) {
+            text-align: center;
+        }
+        .formula {
+            font-family: 'Courier New', monospace;
+            font-size: 8pt;
+        }
+        .diagram-section {
+            display: table;
+            width: 100%;
+            margin: 15px 0;
+        }
+        .diagram-left {
+            display: table-cell;
+            width: 60%;
+            vertical-align: top;
+        }
+        .diagram-right {
+            display: table-cell;
+            width: 40%;
+            vertical-align: top;
+            padding-left: 15px;
+        }
+        .diagram-box {
+            border: 2px solid #000;
+            padding: 15px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+        .diagram-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .diagram-content {
+            font-size: 9pt;
+        }
+        .footer {
+            margin-top: 20px;
+            text-align: left;
+            font-size: 9pt;
+        }
+        .page-number {
+            text-align: right;
+            margin-top: 10px;
+            font-size: 9pt;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="doc-title">РАСЧЁТ ДАВЛЕНИЯ ВНУТРЕННЕЙ ОБЕЧАЙКИ</div>
+        <div class="doc-info">
+            <strong>Стандарт расчёта:</strong> GB/T 150.3-2011<br>
+            <strong>Организация расчёта:</strong> 江阴宇博科技有限公司 (Jiangyin Yubo Technology Co., Ltd.)
+        </div>
+        <div class="doc-info-right">Номер документа: <strong>SW6-2011</strong></div>
+    </div>
+    
+    <div class="diagram-section">
+        <div class="diagram-left">
+            <div class="section-title">Условия расчёта</div>
+            <table class="calc-table">
+                <tbody>
+                    <tr>
+                        <td>Расчётное давление p</td>
+                        <td>1.10 МПа</td>
+                    </tr>
+                    <tr>
+                        <td>Расчётная температура t</td>
+                        <td>250.00 ℃</td>
+                    </tr>
+                    <tr>
+                        <td>Внутренний диаметр Di</td>
+                        <td>1800.00 мм</td>
+                    </tr>
+                    <tr>
+                        <td>Материал</td>
+                        <td>Q345R (листовой)</td>
+                    </tr>
+                    <tr>
+                        <td>Допускаемое напряжение [σ] при температуре испытаний</td>
+                        <td>189.00 МПа</td>
+                    </tr>
+                    <tr>
+                        <td>Допускаемое напряжение [σ]' при расчётной температуре</td>
+                        <td>167.00 МПа</td>
+                    </tr>
+                    <tr>
+                        <td>Предел текучести Re при температуре испытаний</td>
+                        <td>345.00 МПа</td>
+                    </tr>
+                    <tr>
+                        <td>Отрицательное отклонение C</td>
+                        <td>0.30 мм</td>
+                    </tr>
+                    <tr>
+                        <td>Припуск на коррозию G</td>
+                        <td>1.00 мм</td>
+                    </tr>
+                    <tr>
+                        <td>Коэффициент сварного соединения φ</td>
+                        <td>0.85</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="diagram-right">
+            <div class="diagram-box">
+                <div class="diagram-title">Схема обечайки</div>
+                <div class="diagram-content">
+                    <div style="margin: 20px 0;">
+                        <div style="border: 2px solid #000; width: 100px; height: 60px; margin: 0 auto; position: relative;">
+                            <div style="position: absolute; left: -30px; top: 50%; transform: translateY(-50%);">Di</div>
+                            <div style="position: absolute; right: -30px; top: 50%; transform: translateY(-50%);">δe</div>
+                        </div>
+                    </div>
+                    <div style="text-align: left; margin-top: 10px;">
+                        <div>Di — внутренний диаметр</div>
+                        <div>δe — эффективная толщина</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section-title">Расчёт толщины и веса</div>
+    <table class="calc-table">
+        <tbody>
+            <tr>
+                <td>Расчётная толщина δ</td>
+                <td class="formula">δ = PeDi / (2[σ]φ - Pe) = 7.00 мм</td>
+            </tr>
+            <tr>
+                <td>Эффективная толщина δe</td>
+                <td class="formula">δe = δn - C - G = 8.70 мм</td>
+            </tr>
+            <tr>
+                <td>Номинальная толщина δn</td>
+                <td class="formula">δn = 10.00 мм</td>
+            </tr>
+            <tr>
+                <td>Масса</td>
+                <td>803.45 кг</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div class="section-title">Проверка напряжений при гидравлических испытаниях</div>
+    <table class="calc-table">
+        <tbody>
+            <tr>
+                <td>Тип гидравлических испытаний</td>
+                <td>Гидравлические испытания</td>
+            </tr>
+            <tr>
+                <td>Значение испытательного давления Pr</td>
+                <td class="formula">Pr = 1.25p [σ] / [σ]' = 1.5600 МПа</td>
+            </tr>
+            <tr>
+                <td>Допускаемый уровень напряжений при гидравлических испытаниях [σ]t</td>
+                <td class="formula">[σ]t ≤ 0.90 Re = 310.50 МПа</td>
+            </tr>
+            <tr>
+                <td>Напряжение обечайки при испытательном давлении σt</td>
+                <td class="formula">σt = Pr(Di + δe) / (2δeφ) = 190.78 МПа</td>
+            </tr>
+            <tr>
+                <td>Условие проверки</td>
+                <td class="formula">σt ≤ [σ]t</td>
+            </tr>
+            <tr>
+                <td>Результат проверки</td>
+                <td><strong>Соответствует</strong></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div class="section-title">Расчёт давления и напряжений</div>
+    <table class="calc-table">
+        <tbody>
+            <tr>
+                <td>Максимально допустимое рабочее давление [p]</td>
+                <td class="formula">[p] = 2δe[σ]'φ / (Di + δe) = 1.36558 МПа</td>
+            </tr>
+            <tr>
+                <td>Расчётное напряжение σ' при расчётной температуре</td>
+                <td class="formula">σ' = Pc(Di + δe) / (2δe) = 114.34 МПа</td>
+            </tr>
+            <tr>
+                <td>[σ]'φ</td>
+                <td class="formula">141.95 МПа</td>
+            </tr>
+            <tr>
+                <td>Условие проверки</td>
+                <td class="formula">[σ]'φ ≥ σ'</td>
+            </tr>
+            <tr>
+                <td>Заключение</td>
+                <td><strong>Соответствует</strong></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div class="footer">
+        <div>Национальный центр проектирования химического оборудования</div>
+        <div class="page-number">Страница 2</div>
+    </div>
+</body>
+</html>
+
